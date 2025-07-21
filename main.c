@@ -117,7 +117,7 @@ int parse_csv_line(FILE *fp, char fields[MAX_FIELDS][MAX_FIELD_LEN]) {
     return 1;  // Successfully read one line
 }
 
-int options(total){
+int options(int total){
   char och=0;
   int keypressed = 0;
   int i = 0;
@@ -126,41 +126,41 @@ int options(total){
   int nrandom = rand() % total; // Generates 0 to upper_bound - 1
 
   resetAnsi(0);
-  draw_window(20, (termR/2) - 6, termC-20, (termR/2) +6, B_BLACK,F_WHITE, B_BLACK,1,0,0);
+  draw_window(5, (termR/2) - 6, termC-5, (termR/2) +6, B_BLACK,F_WHITE, B_BLACK,1,0,0);
   gotoxy((termC/2)-10,(termR/2)-5);
   outputcolor(F_BLACK,B_WHITE);
   printf("Dictionary Use\n");
-  gotoxy(22,(termR/2)-4);
+  gotoxy(7,(termR/2)-4);
   outputcolor(FH_GREEN,B_BLACK);
   printf("[+] KEYS:\n");
-  gotoxy(22,(termR/2)-3);
+  gotoxy(7,(termR/2)-3);
   outputcolor(F_GREEN,B_BLACK);
   printf("- [ENTER]: Run command.\n");
-  gotoxy(22,(termR/2)-2);
+  gotoxy(7,(termR/2)-2);
   outputcolor(F_GREEN,B_BLACK);
   printf("- [TAB]: Type command.\n");
-  gotoxy(22,(termR/2)-1);
+  gotoxy(7,(termR/2)-1);
   outputcolor(F_GREEN,B_BLACK);
   printf("- [ESC]: Exit.\n");
-  gotoxy(22,(termR/2));
+  gotoxy(7,(termR/2));
   outputcolor(F_GREEN,B_BLACK);
   printf("- [x]: Invert list.\n");
-  gotoxy(22,(termR/2)+1);
+  gotoxy(7,(termR/2)+1);
   outputcolor(F_GREEN,B_BLACK);
   printf("- [f/r]: Add/remove filter.\n");
-   gotoxy(22,(termR/2)+2);
+   gotoxy(7,(termR/2)+2);
   outputcolor(FH_BLACK,B_BLACK);
   printf(":: dict v0.1 - 2025 ::\n");
-  for(i=22; i<=termC-20;i++){
+  for(i=7; i<=termC-5;i++){
     gotoxy(i,(termR/2)+3);
     outputcolor(F_WHITE,B_BLACK);
     printf("%lc", HOR_LINE);
   }
-  gotoxy(22,(termR/2)+7);
+  gotoxy(8,(termR/2)+7);
   outputcolor(F_WHITE,B_BLACK);
   printf("PRESS ANY KEY...\n");
   i=1;
-     whereX = 22;
+     whereX = 7;
      xDIR = 1;
      yDIR = 1;
      whereY = (termR/2)+4;
@@ -172,9 +172,9 @@ int options(total){
 	//Animation
         gotoxy(whereX,whereY);
         outputcolor(F_BLACK,B_BLACK);
-        printf("                                                       \n");
- 	if (whereX == termC-20-16) xDIR = -1;
-        if (whereX == 22) xDIR = 1;
+	printf("%s:%s\n",miArray2.data[nrandom],miArray3.data[nrandom]);
+ 	if (whereX == termC-5-16) xDIR = -1;
+        if (whereX == 5) xDIR = 1;
         if (whereY == (termR/2)+4)  {yDIR = 1;}
         if (whereY == (termR/2)+6) {yDIR = -1;}
         whereX = whereX + xDIR;
@@ -200,7 +200,7 @@ int showWord(int index){
   char och=0;
   int keypressed = 0;
   resetAnsi(0);
-  draw_window(20, (termR/2) - 6, termC-20, (termR/2) +6, B_BLACK,F_WHITE, B_WHITE,1,0,0);
+  draw_window(5, (termR/2) - 6, termC-5, (termR/2) +6, B_BLACK,F_WHITE, B_WHITE,1,0,0);
   gotoxy((termC/2)-10,(termR/2)-5);
   outputcolor(F_BLACK,B_WHITE);
   printf("Word Info\n");
@@ -236,7 +236,7 @@ int showWord(int index){
 
 void mainwindow(){
 
-  draw_window(20, (termR/2) - 6, termC-20, (termR/2) +6, B_BLACK,F_WHITE, B_WHITE,1,0,0);
+  draw_window(5, (termR/2) - 6, termC-5, (termR/2) +6, B_BLACK,F_WHITE, B_WHITE,1,0,0);
   gotoxy((termC/2)-10,(termR/2)-5);
   outputcolor(F_BLACK,B_WHITE);
   printf("Dictionary v0.1");
@@ -311,7 +311,7 @@ int main() {
     printf("Dictionary v0.1 [%d]", entries);
  
  
-    ch = listBox(listBox1, 22, (termR/2)-4, &scrollData, B_BLACK, FH_BLACK, B_BLACK,
+    ch = listBox(listBox1, 7, (termR/2)-4, &scrollData, B_BLACK, FH_BLACK, B_BLACK,
 	       FH_GREEN, 11, VERTICAL, 1,1);
    if (ch == K_ENTER) showWord(scrollData.itemIndex);
    if (ch == K_TAB) break;
@@ -329,7 +329,7 @@ int main() {
 } while (scrollData.lastch != K_ESCAPE);   
    showcursor();   
    ch++;
-   draw_transparent(20, (termR/2) - 6, termC-20, (termR/2) +6);
+   draw_transparent(5, (termR/2) - 6, termC-5, (termR/2) +6);
    gotoxy(globalCursorX, globalCursorY-2);
     close_term();
     

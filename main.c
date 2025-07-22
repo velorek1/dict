@@ -46,6 +46,16 @@ void initStringArray(stringArray *arr) {
     arr->size = 0;
 }
 
+void updateString(stringArray *arr, int index, const char *new_str) {
+   /* if (index < 0 || index >= arr->size) {
+        fprintf(stderr, "updateString: index %d out of bounds\n", index);
+        return;
+    }*/
+    // Safely copy into fixed-size buffer
+    strncpy(arr->data[index], new_str, MAX_STRING_LENGTH);
+    arr->data[index][MAX_STRING_LENGTH] = '\0';  // Ensure null-termination
+}
+
 void addString(stringArray *arr, const char *str) {
     size_t new_capacity = 0;
     if (arr->capacity == arr->size) {
@@ -117,6 +127,10 @@ int parse_csv_line(FILE *fp, char fields[MAX_FIELDS][MAX_FIELD_LEN]) {
 
     return 1;  // Successfully read one line
 }
+void input(char csearch[MAX_TEXT]){
+       textbox(7, (termR/2)+7-1, 20,"Edit:", csearch, B_MAGENTA, F_WHITE, F_WHITE, 1);
+}
+
 
 int options(int total){
   char och=0;
@@ -200,8 +214,11 @@ int options(int total){
 }
 
 int showWord(int index){
-  char och=0;
+  char ch=0;
   int keypressed = 0;
+  char iWord[MAX_TEXT];
+  char iTran[MAX_TEXT];
+  char iCom[MAX_TEXT];
   if (entries==1) return -1;
   resetAnsi(0);
   draw_window(5, (termR/2) - 6, termC-5, (termR/2) +6, B_WHITE,F_BLACK, B_WHITE,1,0,0);
@@ -209,21 +226,15 @@ int showWord(int index){
   outputcolor(F_WHITE,B_BLACK);
   printf("Word Info\n");
   gotoxy(7,(termR/2)-4);
-  outputcolor(FH_BLACK,B_YELLOW);
-  printf("[+] %s:\n",miArray2.data[index+1]);
-  gotoxy(7,(termR/2)-3);
-  outputcolor(F_BLACK,B_WHITE);
-  printf("- [%s]\n", miArray3.data[index+1]);
-  gotoxy(7,(termR/2)-2);
-  printf("- [%s]\n", miArray4.data[index+1]);
-  outputcolor(F_BLACK,B_WHITE);
+ outputcolor(F_BLACK,B_WHITE);
   gotoxy(8,(termR/2)+7);
-  printf("PRESS ANY KEY...\n");
-  do{
-	 keypressed= kbhit(100);
-	 //wait for keypress
-	 if (keypressed)
-		 och = readch();
+  printf("ESC: RETURN | SPACE: EDIT\n"); 
+  do{ 
+    if (listBox1!= NULL) removeList(&listBox1);  
+  listBox1 = addatend(listBox1, newitem(miArray2.data[index+1], -1, -1, -1, -1));
+  listBox1 = addatend(listBox1, newitem(miArray3.data[index+1], -1, -1, -1, -1));
+  listBox1 = addatend(listBox1, newitem(miArray4.data[index+1], -1, -1, -1, -1));
+ 
         get_terminal_dimensions (&termR,&termC);
         if ((termR != ntermR) || (termC != ntermC))
 	{
@@ -231,9 +242,39 @@ int showWord(int index){
 		return -1;
 
 	}
-        
-  } while(keypressed != 1);
-  och++;
+ 
+    ch = listBox(listBox1, 7, (termR/2)-4, &scrollData, B_WHITE, F_BLACK, B_MAGENTA,
+	       F_WHITE, 11, VERTICAL, 1,1);
+   if (ch == K_ENTER) break;
+   if (ch == K_SPACE) {
+	switch (scrollData.itemIndex) {
+	     case 0:              input(iWord); if (strlen(iWord)>1) {updateString(&miArray2, index+1, iWord); write_data();} break;
+	     case 1:              input(iTran); if (strlen(iTran)>1) {updateString(&miArray3, index+1, iTran); write_data();} break;
+	     case 2:              input(iCom); if (strlen(iCom)>1) {updateString(&miArray4, index+1, iCom); write_data();} break;
+	}
+	scrollData.lastch = 0;
+	ch = 0;
+	resetAnsi(0);
+        draw_window(5, (termR/2) - 6, termC-5, (termR/2) +6, B_WHITE,F_BLACK, B_WHITE,1,0,0);
+        gotoxy((termC/2)-10,(termR/2)-5);
+        outputcolor(F_WHITE,B_BLACK);
+        printf("Word Info\n");
+ 
+        outputcolor(F_BLACK,B_WHITE);
+	gotoxy(8,(termR/2)+7);
+        printf("ESC: RETURN | SPACE: EDIT\n"); 
+   }
+   if (ch == K_TAB) break;
+   if (ch == 'r') {write_data();}
+   if (ch == 'x') {addEntry("test1","test2","test3");}
+ //  if (ch == 'x') {if (invert == 1) invert = 0; else invert = 1;}
+ //  if (ch == 'f') {search(csearch); if (strlen(csearch)==0 || filterCount==0) csearch[0]='\0';}
+ //  if (ch == 'r') {csearch[0]='\0';}
+   if (listBox1!= NULL) removeList(&listBox1);  
+} while (scrollData.lastch != K_ESCAPE);
+   if (listBox1!= NULL) removeList(&listBox1);  
+
+  scrollData.lastch = 0;
   return 0;
 }
 
@@ -250,11 +291,36 @@ void mainwindow(){
 
 }
 
+int write_data(){
+   int i=0;
+   FILE *fp = fopen(DICTIONARY, "w");
+   rewind(fp);
+  if (fp == NULL) {
+        perror("Failed to open file");
+        return 1;
+    }
+   fprintf(fp, "ID,WORD,TRANSLITION,COMMENT\n");
+   for (i=1; i<entries; i++){
+      fprintf(fp, "%d,%s,%s,%s\n", i, miArray2.data[i],miArray3.data[i],miArray4.data[i]);
+   }
+   fclose(fp);
+   return 0;
+}
+
 int load_history(int ascending, const char *instrstr) {
    int i=0;
    int linecount=0;
    FILE *fp = fopen(DICTIONARY, "r");
-    if (!fp) {
+     if  (miArray1.size>0) freeStringArray(&miArray1);
+     if (miArray2.size>0) freeStringArray(&miArray2);
+     if (miArray3.size>0) freeStringArray(&miArray3);
+     if (miArray4.size>0) freeStringArray(&miArray4);
+    initStringArray(&miArray1);
+    initStringArray(&miArray2);
+    initStringArray(&miArray3);
+    initStringArray(&miArray4);
+  
+   if (!fp) {
         perror("Failed to open file");
         listBox1 = addatend(listBox1, newitem("No data found!", -1, -1, -1, -1));
         return 1;
@@ -280,8 +346,14 @@ int load_history(int ascending, const char *instrstr) {
     return linecount;
 }
 
-void search(char csearch[MAX_TEXT]){
-       textbox(21, (termR/2)+7-1, 20,"Filter:", csearch, B_BLACK, F_WHITE, F_WHITE, 1);
+void addEntry(char *word, char *translation, char *comment){
+  FILE *fp = fopen(DICTIONARY, "a");
+  if (fp == NULL) {
+        perror("Failed to open file");
+        return 1;
+    }
+   fprintf(fp, "%d,%s,%s,%s\n", entries, word,translation,comment);
+   fclose(fp);
 }
 
 int main() {
@@ -290,11 +362,7 @@ int main() {
     char command[500];
     int invert = 0;
    char csearch[MAX_TEXT];
-     initStringArray(&miArray1);
-    initStringArray(&miArray2);
-    initStringArray(&miArray3);
-    initStringArray(&miArray4);
-    srand(time(NULL));  // Seed the random number generator (only once)
+   srand(time(NULL));  // Seed the random number generator (only once)
 
   
    get_pos(&globalCursorY, &globalCursorX);
@@ -317,13 +385,15 @@ int main() {
     mainwindow();
     gotoxy((termC/2)-10,(termR/2)-5);
     outputcolor(F_BLACK,B_WHITE);
-    printf("Dictionary v0.1 [%d]", entries);
+    printf("Dictionary v0.1 [%d]", entries-1);
  
  
     ch = listBox(listBox1, 7, (termR/2)-4, &scrollData, B_MAGENTA, F_WHITE, B_WHITE,
 	       F_BLACK, 11, VERTICAL, 1,1);
-   if (ch == K_ENTER) showWord(scrollData.itemIndex);
+   if (ch == K_ENTER) {showWord(scrollData.itemIndex); ch=0;}
    if (ch == K_TAB) break;
+   if (ch == 'r') {write_data();}
+   if (ch == 'x') {addEntry("test1","test2","test3");}
  //  if (ch == 'x') {if (invert == 1) invert = 0; else invert = 1;}
  //  if (ch == 'f') {search(csearch); if (strlen(csearch)==0 || filterCount==0) csearch[0]='\0';}
  //  if (ch == 'r') {csearch[0]='\0';}

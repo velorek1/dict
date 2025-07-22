@@ -581,6 +581,8 @@ if (locked == LOCKED) {
 	if (ch == 'x') {scrollData->lastch = 'x'; break;}
 	if (ch == 'f') {scrollData->lastch = 'f'; break;}
 	if (ch == 'r') {scrollData->lastch = 'r'; break;}
+	if (ch == 'a') {scrollData->lastch = 'a'; break;}
+	if (ch == 'w') {scrollData->lastch = 'w'; break;}
     } while(ch != K_ENTER);
 
   } else {

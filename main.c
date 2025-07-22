@@ -29,6 +29,7 @@ int termR=0, termC=0;
 int ntermR=0, ntermC=0;
 int count=0;
 int filterCount=0;
+int entries = 0;
 SCROLLDATA scrollData;
 char fields[4][255];
 stringArray miArray1;
@@ -123,8 +124,10 @@ int options(int total){
   int i = 0;
   int whereX = 0, whereY = 0;
   int xDIR = 0, yDIR = 0;
-  int nrandom = rand() % total; // Generates 0 to upper_bound - 1
+  int nrandom = (rand() % (total-1)+1); // Generates 0 to upper_bound - 1
 
+  if (entries==1) return -1;
+  fprintf(stderr,"%d",entries);
   resetAnsi(0);
   draw_window(5, (termR/2) - 6, termC-5, (termR/2) +6, B_BLACK,F_WHITE, B_BLACK,1,0,0);
   gotoxy((termC/2)-10,(termR/2)-5);
@@ -173,8 +176,8 @@ int options(int total){
         gotoxy(whereX,whereY);
         outputcolor(F_BLACK,B_BLACK);
 	printf("%s:%s\n",miArray2.data[nrandom],miArray3.data[nrandom]);
- 	if (whereX == termC-5-16) xDIR = -1;
-        if (whereX == 5) xDIR = 1;
+ 	if (whereX == termC-7-16) xDIR = -1;
+        if (whereX == 7) xDIR = 1;
         if (whereY == (termR/2)+4)  {yDIR = 1;}
         if (whereY == (termR/2)+6) {yDIR = -1;}
         whereX = whereX + xDIR;
@@ -199,21 +202,22 @@ int options(int total){
 int showWord(int index){
   char och=0;
   int keypressed = 0;
+  if (entries==1) return -1;
   resetAnsi(0);
-  draw_window(5, (termR/2) - 6, termC-5, (termR/2) +6, B_BLACK,F_WHITE, B_WHITE,1,0,0);
+  draw_window(5, (termR/2) - 6, termC-5, (termR/2) +6, B_WHITE,F_BLACK, B_WHITE,1,0,0);
   gotoxy((termC/2)-10,(termR/2)-5);
-  outputcolor(F_BLACK,B_WHITE);
-  printf("Word Info\n");
-  gotoxy(22,(termR/2)-4);
-  outputcolor(FH_GREEN,B_BLACK);
-  printf("[+] %s:\n",miArray2.data[index+1]);
-  gotoxy(22,(termR/2)-3);
-  outputcolor(F_GREEN,B_BLACK);
-  printf("- [%s]\n", miArray3.data[index+1]);
-  gotoxy(22,(termR/2)-2);
-  printf("- [%s]\n", miArray4.data[index+1]);
   outputcolor(F_WHITE,B_BLACK);
-  gotoxy(22,(termR/2)+7);
+  printf("Word Info\n");
+  gotoxy(7,(termR/2)-4);
+  outputcolor(FH_BLACK,B_YELLOW);
+  printf("[+] %s:\n",miArray2.data[index+1]);
+  gotoxy(7,(termR/2)-3);
+  outputcolor(F_BLACK,B_WHITE);
+  printf("- [%s]\n", miArray3.data[index+1]);
+  gotoxy(7,(termR/2)-2);
+  printf("- [%s]\n", miArray4.data[index+1]);
+  outputcolor(F_BLACK,B_WHITE);
+  gotoxy(8,(termR/2)+7);
   printf("PRESS ANY KEY...\n");
   do{
 	 keypressed= kbhit(100);
@@ -236,36 +240,42 @@ int showWord(int index){
 
 void mainwindow(){
 
-  draw_window(5, (termR/2) - 6, termC-5, (termR/2) +6, B_BLACK,F_WHITE, B_WHITE,1,0,0);
+  draw_window(5, (termR/2) - 6, termC-5, (termR/2) +6, B_MAGENTA,F_WHITE, B_WHITE,1,0,0);
   gotoxy((termC/2)-10,(termR/2)-5);
   outputcolor(F_BLACK,B_WHITE);
   printf("Dictionary v0.1");
-  gotoxy(22,(termR/2)+7);
-  outputcolor(F_WHITE,B_BLACK);
+  gotoxy(8,(termR/2)+7);
+  outputcolor(F_BLACK,B_MAGENTA);
   printf("^v: SCROLL | SPACE : INFO");
 
 }
 
 int load_history(int ascending, const char *instrstr) {
- 
+   int i=0;
    int linecount=0;
    FILE *fp = fopen(DICTIONARY, "r");
     if (!fp) {
         perror("Failed to open file");
+        listBox1 = addatend(listBox1, newitem("No data found!", -1, -1, -1, -1));
         return 1;
     }
 
     char fields[4][255];
 
     while (parse_csv_line(fp, fields)) {
-        if (linecount != 0) listBox1 = addatend(listBox1, newitem(fields[1], -1, -1, -1, -1));
         addString(&miArray1, fields[0]);
         addString(&miArray2, fields[1]);
         addString(&miArray3, fields[2]);
         addString(&miArray4, fields[3]);
 	linecount++;
     }
-  
+    if (linecount >1){
+	    for (i=1;i<linecount;i++){
+               listBox1 = addatend(listBox1, newitem(miArray2.data[i], -1, -1, -1, -1));
+	    }
+
+    } else
+        listBox1 = addatend(listBox1, newitem("No data found!", -1, -1, -1, -1));
     fclose(fp);
     return linecount;
 }
@@ -279,7 +289,6 @@ int main() {
     char ch=0;
     char command[500];
     int invert = 0;
-    int entries = 0;
    char csearch[MAX_TEXT];
      initStringArray(&miArray1);
     initStringArray(&miArray2);
@@ -301,7 +310,7 @@ int main() {
    hidecursor();   
 
     resetScrollData(&scrollData);
-    setselectorLimit(termC-41);
+    setselectorLimit(termC-11);
    csearch[0] = '\0';
  do{ 
     entries=load_history(invert,csearch);
@@ -311,8 +320,8 @@ int main() {
     printf("Dictionary v0.1 [%d]", entries);
  
  
-    ch = listBox(listBox1, 7, (termR/2)-4, &scrollData, B_BLACK, FH_BLACK, B_BLACK,
-	       FH_GREEN, 11, VERTICAL, 1,1);
+    ch = listBox(listBox1, 7, (termR/2)-4, &scrollData, B_MAGENTA, F_WHITE, B_WHITE,
+	       F_BLACK, 11, VERTICAL, 1,1);
    if (ch == K_ENTER) showWord(scrollData.itemIndex);
    if (ch == K_TAB) break;
  //  if (ch == 'x') {if (invert == 1) invert = 0; else invert = 1;}

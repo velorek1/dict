@@ -227,7 +227,7 @@ int options(int total){
   fprintf(stderr,"%d",entries);
   resetAnsi(0);
   draw_window(5, (termR/2) - 6, termC-5, (termR/2) +6, B_BLACK,F_WHITE, B_BLACK,1,0,0);
-  gotoxy((termC/2)-10,(termR/2)-5);
+  gotoxy(8,(termR/2)-5);
   outputcolor(F_BLACK,B_WHITE);
   printf("Dictionary Use\n");
   gotoxy(7,(termR/2)-4);
@@ -270,6 +270,7 @@ int options(int total){
 	 if (keypressed)
 		 och = readch();
 	//Animation
+	resetAnsi(0);
         gotoxy(whereX,whereY);
         outputcolor(F_BLACK,B_BLACK);
 	printf("%s:%s\n",miArray2.data[nrandom],miArray3.data[nrandom]);
@@ -304,10 +305,11 @@ int showWord(int index){
   if (entries==1) return -1;
   resetAnsi(0);
   draw_window(5, (termR/2) - 6, termC-5, (termR/2) +6, B_WHITE,F_BLACK, B_WHITE,1,0,0);
-  gotoxy((termC/2)-10,(termR/2)-5);
-  outputcolor(F_WHITE,B_BLACK);
+  gotoxy(8,(termR/2)-5);
+  outputcolor(FH_WHITE,B_BLACK);
   printf("Word Info\n");
   gotoxy(7,(termR/2)-4);
+  resetAnsi(0);
  outputcolor(F_BLACK,B_WHITE);
   gotoxy(8,(termR/2)+7);
   printf("ESC: RETURN | SPACE: EDIT\n"); 
@@ -338,10 +340,10 @@ int showWord(int index){
 	ch = 0;
 	resetAnsi(0);
         draw_window(5, (termR/2) - 6, termC-5, (termR/2) +6, B_WHITE,F_BLACK, B_WHITE,1,0,0);
-        gotoxy((termC/2)-10,(termR/2)-5);
-        outputcolor(F_WHITE,B_BLACK);
+        gotoxy(8,(termR/2)-5);
+        outputcolor(FH_WHITE,B_BLACK);
         printf("Word Info\n");
- 
+        resetAnsi(0);
         outputcolor(F_BLACK,B_WHITE);
 	gotoxy(8,(termR/2)+7);
         printf("ESC: RETURN | SPACE: EDIT\n"); 
@@ -364,9 +366,9 @@ int showWord(int index){
 void mainwindow(){
 
   draw_window(5, (termR/2) - 6, termC-5, (termR/2) +6, B_MAGENTA,F_WHITE, B_WHITE,1,0,0);
-  gotoxy((termC/2)-10,(termR/2)-5);
-  outputcolor(F_BLACK,B_WHITE);
-  printf("Dictionary v0.1");
+ // gotoxy(8,(termR/2)-5);
+ // outputcolor(F_BLACK,B_WHITE);
+ // printf("Dictionary v0.1");
   gotoxy(8,(termR/2)+7);
   outputcolor(F_BLACK,B_MAGENTA);
   printf("^v: SCROLL | SPACE : INFO");
@@ -397,8 +399,8 @@ int main() {
  do{ 
     entries=load_history();
     mainwindow();
-    gotoxy((termC/2)-10,(termR/2)-5);
-    outputcolor(F_BLACK,B_WHITE);
+    gotoxy(8,(termR/2)-5);
+    outputcolor(FH_WHITE,B_BLACK);
     printf("Dictionary v0.1 [%d]", entries-1);
  
  

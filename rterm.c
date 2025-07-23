@@ -433,14 +433,16 @@ int textbox(int wherex, int wherey, int displayLength,
     //ENTER OR TAB FINISH LOOP
   } while(exitFlag != 1);
   text[charCount] = '\0';
+  //clear cursor
+  write_ch(positionx+1, wherey, '.', backcolor, textcolor);
   //Clear field
   positionx = wherex + strlen(label);
-  for(i = positionx + 1; i <= positionx + displayLength; i++) {
+ /* for(i = positionx + 1; i <= positionx + displayLength; i++) {
     write_ch(i, wherey, '.', backcolor, textcolor);
   }
   write_ch(positionx + displayLength + 1, wherey, ']', backcolor,
        textcolor);
- 
+ */
   //resetch();
   if (ch == K_ESCAPE) charCount = 0;
   return charCount;

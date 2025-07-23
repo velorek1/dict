@@ -386,7 +386,7 @@ char selectorMenu(LISTCHOICE * aux, SCROLLDATA * scrollData) {
     else
       ch = 0;
     //if enter key pressed - break loop
-    if(ch == K_ENTER||ch == K_SPACE || ch == K_TAB || ch == 'x' || ch == 'f' || ch =='r')
+    if(ch == K_ENTER||ch == K_SPACE || ch == K_TAB || ch == 'q' || ch == 'g' || ch =='i' || ch== 'a')
       control = CONTINUE_SCROLL;	//Break the loop
 
      /*if (ch == 'x' || ch == K_BACKSPACE || ch == K_CTRL_C){
@@ -464,7 +464,7 @@ char selectorMenu(LISTCHOICE * aux, SCROLLDATA * scrollData) {
 		}
 	}
 
-	if (ch == K_ENTER || ch == K_ENTER2 || ch==K_SPACE || ch==K_TAB || ch =='x' || ch=='f' || ch =='r')	// enter key
+	if (ch == K_ENTER || ch == K_ENTER2 || ch==K_SPACE || ch==K_TAB || ch =='q' || ch=='g' || ch =='i' || ch =='a')	// enter key
 	{
 		//Pass data of last item selected
 		scrollData->item = aux->item;
@@ -579,10 +579,10 @@ if (locked == LOCKED) {
 	if (ch == K_SPACE) break;
 	if (ch == K_TAB) break;
 	if (ch == 'x') {scrollData->lastch = 'x'; break;}
-	if (ch == 'f') {scrollData->lastch = 'f'; break;}
-	if (ch == 'r') {scrollData->lastch = 'r'; break;}
+	if (ch == 'g') {scrollData->lastch = 'g'; break;}
+	if (ch == 'q') {scrollData->lastch = 'q'; break;}
 	if (ch == 'a') {scrollData->lastch = 'a'; break;}
-	if (ch == 'w') {scrollData->lastch = 'w'; break;}
+	if (ch == 'i') {scrollData->lastch = 'i'; break;}
     } while(ch != K_ENTER);
 
   } else {

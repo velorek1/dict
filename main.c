@@ -45,11 +45,13 @@ void addString(stringArray *arr, const char *str);
 void freeStringArray(stringArray *arr);
 void printStringArray(stringArray *arr);
 int parse_csv_line(FILE *fp, char fields[MAX_FIELDS][MAX_FIELD_LEN]);
-int load_history();
+int load_history(int invert);
 void addEntry(char *word, char *translation, char *comment);
 int write_data();
 void input(char csearch[MAX_TEXT]);
 int options(int total);
+int guessWord(int index);
+void write_dialog();
 int showWord(int index);
 void mainwindow();
 /* DYNAMIC ARRAY ROUTINES */
@@ -142,7 +144,7 @@ int parse_csv_line(FILE *fp, char fields[MAX_FIELDS][MAX_FIELD_LEN]) {
 
     return 1;  // Successfully read one line
 }
-int load_history() {
+int load_history(int invert) {
    int i=0;
    int linecount=0;
    FILE *fp = fopen(DICTIONARY, "r");
@@ -171,13 +173,20 @@ int load_history() {
 	linecount++;
     }
     if (linecount >1){
-	    for (i=1;i<linecount;i++){
-               listBox1 = addatend(listBox1, newitem(miArray2.data[i], -1, -1, -1, -1));
+	    if (invert == 0){
+	      for (i=1;i<linecount;i++){
+                 listBox1 = addatend(listBox1, newitem(miArray2.data[i], -1, -1, -1, -1));
+	       }
+	     }else{
+	       for (i=linecount-1; i>0;i--){
+                 listBox1 = addatend(listBox1, newitem(miArray2.data[i], -1, -1, -1, -1));
+	       }
 	    }
-
+ 
     } else
         listBox1 = addatend(listBox1, newitem("No data found!", -1, -1, -1, -1));
     fclose(fp);
+
     return linecount;
 }
 
@@ -224,7 +233,6 @@ int options(int total){
   int nrandom = (rand() % (total-1)+1); // Generates 0 to upper_bound - 1
 
   if (entries==1) return -1;
-  fprintf(stderr,"%d",entries);
   resetAnsi(0);
   draw_window(5, (termR/2) - 6, termC-5, (termR/2) +6, B_BLACK,F_WHITE, B_BLACK,1,0,0);
   gotoxy(8,(termR/2)-5);
@@ -234,23 +242,23 @@ int options(int total){
   outputcolor(FH_GREEN,B_BLACK);
   printf("[+] KEYS:\n");
   gotoxy(7,(termR/2)-3);
-  outputcolor(F_GREEN,B_BLACK);
-  printf("- [ENTER]: Run command.\n");
+  outputcolor(FH_GREEN,B_BLACK);
+  printf("- [ENTER]: View word\n");
   gotoxy(7,(termR/2)-2);
-  outputcolor(F_GREEN,B_BLACK);
-  printf("- [TAB]: Type command.\n");
+  outputcolor(FH_GREEN,B_BLACK);
+  printf("- [a]: Add entry\n");
   gotoxy(7,(termR/2)-1);
-  outputcolor(F_GREEN,B_BLACK);
-  printf("- [ESC]: Exit.\n");
+  outputcolor(FH_GREEN,B_BLACK);
+  printf("- [q]: Quick add.\n");
   gotoxy(7,(termR/2));
-  outputcolor(F_GREEN,B_BLACK);
-  printf("- [x]: Invert list.\n");
+  outputcolor(FH_GREEN,B_BLACK);
+  printf("- [i]: Invert list.\n");
   gotoxy(7,(termR/2)+1);
-  outputcolor(F_GREEN,B_BLACK);
-  printf("- [f/r]: Add/remove filter.\n");
+  outputcolor(FH_GREEN,B_BLACK);
+  printf("- [g]: Guess the word.\n");
    gotoxy(7,(termR/2)+2);
   outputcolor(FH_BLACK,B_BLACK);
-  printf(":: dict v0.1 - 2025 ::\n");
+  printf(":: dict v0.1 - 2025 :: Coded by v3l0r3k ::\n");
   for(i=7; i<=termC-5;i++){
     gotoxy(i,(termR/2)+3);
     outputcolor(F_WHITE,B_BLACK);
@@ -297,6 +305,84 @@ int options(int total){
   return 0;
 }
 
+int guessWord(int index){
+  char iWord[MAX_TEXT];
+  char previous[MAX_TEXT];
+  char wordcount=0;
+  char correct = 0;
+  char cw = 0;
+  if (entries==1) return -1;
+ do{ 
+  resetAnsi(0);
+  draw_window(5, (termR/2) - 6, termC-5, (termR/2) +6, B_RED,F_WHITE, B_RED,1,0,0);
+  gotoxy(8,(termR/2)-5);
+  outputcolor(FH_WHITE,B_BLACK);
+  printf("Guess The Word\n");
+  resetAnsi(0);
+ 
+	 if (wordcount > 0){
+	        if (correct == 1){
+		    outputcolor(FH_GREEN,B_RED);
+                    gotoxy(7,(termR/2));
+	            printf("%s", previous);
+ 	  	    outputcolor(FH_CYAN,B_RED);
+                    gotoxy(7,(termR/2)-1);
+		    printf("Well done!: %d", cw);
+
+		}
+		else{
+		   outputcolor(FH_YELLOW,B_RED);
+                    gotoxy(7,(termR/2));
+	            printf("%s", previous);
+ 	  	    outputcolor(FH_RED,B_RED);
+                    gotoxy(7,(termR/2)-1);
+		    printf("Keep trying! %d", cw);
+		}
+	     }
+	     outputcolor(FH_WHITE,B_RED);
+	     gotoxy(7,(termR/2)-4);
+	     printf("%s", miArray3.data[index]);
+             gotoxy(7,(termR/2)-3);
+	     printf("%s", miArray4.data[index]);
+             textbox(7, (termR/2)+7-1, 20,"Guess:", iWord, B_RED, FH_WHITE, F_WHITE, 1);
+             strcpy(previous,miArray2.data[index]);
+             wordcount++;
+	     if (strcmp(iWord,previous) == 0) {correct = 1; cw++;}
+	     else correct = 0;
+
+             index = (rand() % (entries-1)+1); // Generates 0 to upper_bound - 1
+   } while (strlen(iWord)>1);
+   return 0;
+}  
+void write_dialog(){
+  char iWord[MAX_TEXT];
+  char iTran[MAX_TEXT];
+  char iCom[MAX_TEXT];
+ 
+  resetAnsi(0);
+  draw_window(5, (termR/2) - 6, termC-5, (termR/2) +6, B_BLUE,F_WHITE, B_BLUE,1,0,0);
+  gotoxy(8,(termR/2)-5);
+  outputcolor(FH_WHITE,B_BLACK);
+  printf("New word...\n");
+  resetAnsi(0); 
+  textbox(7, (termR/2)-4, 20,"Word:", iWord, B_BLUE, FH_WHITE, F_WHITE, 1);
+  if (strlen(iWord) >1) 
+    {
+	    textbox(7, (termR/2)-3, 20,"Translation:", iTran, B_BLUE, FH_WHITE, F_WHITE, 1);
+	    if (strlen(iTran) > 1) {
+                textbox(7, (termR/2)-2, 20,"Comment:", iCom, B_BLUE, FH_WHITE, F_WHITE, 1);
+		if (strlen(iCom) > 1){
+		    addEntry(iWord,iTran,iCom);
+		} else
+		  return;	
+	    } else
+		    return;
+    }     
+  else 
+    return;
+}  
+
+
 int showWord(int index){
   char ch=0;
   char iWord[MAX_TEXT];
@@ -326,9 +412,10 @@ int showWord(int index){
 		return -1;
 
 	}
- 
+
     ch = listBox(listBox1, 7, (termR/2)-4, &scrollData, B_WHITE, F_BLACK, B_MAGENTA,
 	       F_WHITE, 11, VERTICAL, 1,1);
+
    if (ch == K_ENTER) break;
    if (ch == K_SPACE) {
 	switch (scrollData.itemIndex) {
@@ -348,11 +435,6 @@ int showWord(int index){
 	gotoxy(8,(termR/2)+7);
         printf("ESC: RETURN | SPACE: EDIT\n"); 
    }
-   if (ch == K_TAB) break;
-   if (ch == 'r') {write_data();}
-   if (ch == 'x') {addEntry("test1","test2","test3");}
- //  if (ch == 'x') {if (invert == 1) invert = 0; else invert = 1;}
- //  if (ch == 'f') {search(csearch); if (strlen(csearch)==0 || filterCount==0) csearch[0]='\0';}
  //  if (ch == 'r') {csearch[0]='\0';}
    if (listBox1!= NULL) removeList(&listBox1);  
 } while (scrollData.lastch != K_ESCAPE);
@@ -377,7 +459,9 @@ void mainwindow(){
 
 int main() {
     char ch=0;
-//    int invert = 0;
+    int invert = 0;
+    int index = 0;
+   int nrandom = 0; // Generates 0 to upper_bound - 1
     //char csearch[MAX_TEXT];
    srand(time(NULL));  // Seed the random number generator (only once)
 
@@ -397,7 +481,7 @@ int main() {
     resetScrollData(&scrollData);
     setselectorLimit(termC-11);
  do{ 
-    entries=load_history();
+    entries=load_history(invert);
     mainwindow();
     gotoxy(8,(termR/2)-5);
     outputcolor(FH_WHITE,B_BLACK);
@@ -406,14 +490,23 @@ int main() {
  
     ch = listBox(listBox1, 7, (termR/2)-4, &scrollData, B_MAGENTA, F_WHITE, B_WHITE,
 	       F_BLACK, 11, VERTICAL, 1,1);
-   if (ch == K_ENTER) {showWord(scrollData.itemIndex); ch=0;}
+   if (ch == K_ENTER) {
+	   if (invert ==1) 
+		   index=entries-scrollData.itemIndex-2;
+	   else
+		  index=scrollData.itemIndex; 
+	           showWord(index); 
+    }
    if (ch == K_TAB) break;
-   if (ch == 'r') {write_data();}
-   if (ch == 'x') {addEntry("test1","test2","test3");}
- //  if (ch == 'x') {if (invert == 1) invert = 0; else invert = 1;}
- //  if (ch == 'f') {search(csearch); if (strlen(csearch)==0 || filterCount==0) csearch[0]='\0';}
- //  if (ch == 'r') {csearch[0]='\0';}
-
+   if (ch == 'a') {write_dialog();}
+   if (ch == 'q') {if (!invert) addEntry("empty","empy","empty");}
+   if (ch == 'i') {if (invert == 1) invert = 0; else invert = 1;}
+ 
+   //  if (ch == 'x') {if (invert == 1) invert = 0; else invert = 1;}
+  if (ch == 'g') {
+     nrandom = (rand() % (entries-1)+1); // Generates 0 to upper_bound - 1
+     guessWord(nrandom);
+  }
    if (ch == K_SPACE) {
 	   ch = 0; 
 	  if (options(entries) == -1 ) {scrollData.screenChanged = 1; scrollData.itemIndex = -1; break;}

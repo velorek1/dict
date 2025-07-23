@@ -36,7 +36,22 @@ stringArray miArray1;
 stringArray miArray2;
 stringArray miArray3;
 stringArray miArray4;
- 
+
+//PROTOTYPES
+
+void initStringArray(stringArray *arr);
+void updateString(stringArray *arr, int index, const char *new_str);
+void addString(stringArray *arr, const char *str);
+void freeStringArray(stringArray *arr);
+void printStringArray(stringArray *arr);
+int parse_csv_line(FILE *fp, char fields[MAX_FIELDS][MAX_FIELD_LEN]);
+int load_history();
+void addEntry(char *word, char *translation, char *comment);
+int write_data();
+void input(char csearch[MAX_TEXT]);
+int options(int total);
+int showWord(int index);
+void mainwindow();
 /* DYNAMIC ARRAY ROUTINES */
 /**************************/
 
@@ -127,6 +142,74 @@ int parse_csv_line(FILE *fp, char fields[MAX_FIELDS][MAX_FIELD_LEN]) {
 
     return 1;  // Successfully read one line
 }
+int load_history() {
+   int i=0;
+   int linecount=0;
+   FILE *fp = fopen(DICTIONARY, "r");
+     if  (miArray1.size>0) freeStringArray(&miArray1);
+     if (miArray2.size>0) freeStringArray(&miArray2);
+     if (miArray3.size>0) freeStringArray(&miArray3);
+     if (miArray4.size>0) freeStringArray(&miArray4);
+    initStringArray(&miArray1);
+    initStringArray(&miArray2);
+    initStringArray(&miArray3);
+    initStringArray(&miArray4);
+  
+   if (!fp) {
+        perror("Failed to open file");
+        listBox1 = addatend(listBox1, newitem("No data found!", -1, -1, -1, -1));
+        return 1;
+    }
+
+    char fields[4][255];
+
+    while (parse_csv_line(fp, fields)) {
+        addString(&miArray1, fields[0]);
+        addString(&miArray2, fields[1]);
+        addString(&miArray3, fields[2]);
+        addString(&miArray4, fields[3]);
+	linecount++;
+    }
+    if (linecount >1){
+	    for (i=1;i<linecount;i++){
+               listBox1 = addatend(listBox1, newitem(miArray2.data[i], -1, -1, -1, -1));
+	    }
+
+    } else
+        listBox1 = addatend(listBox1, newitem("No data found!", -1, -1, -1, -1));
+    fclose(fp);
+    return linecount;
+}
+
+void addEntry(char *word, char *translation, char *comment){
+  FILE *fp = fopen(DICTIONARY, "a");
+  if (fp == NULL) {
+        perror("Failed to open file");
+        return;
+    }
+   fprintf(fp, "%d,%s,%s,%s\n", entries, word,translation,comment);
+   fclose(fp);
+}
+
+
+int write_data(){
+   int i=0;
+   FILE *fp = fopen(DICTIONARY, "w");
+   rewind(fp);
+  if (fp == NULL) {
+        perror("Failed to open file");
+        return 1;
+    }
+   fprintf(fp, "ID,WORD,TRANSLITION,COMMENT\n");
+   for (i=1; i<entries; i++){
+      fprintf(fp, "%d,%s,%s,%s\n", i, miArray2.data[i],miArray3.data[i],miArray4.data[i]);
+   }
+   fclose(fp);
+   return 0;
+}
+
+
+
 void input(char csearch[MAX_TEXT]){
        textbox(7, (termR/2)+7-1, 20,"Edit:", csearch, B_MAGENTA, F_WHITE, F_WHITE, 1);
 }
@@ -215,7 +298,6 @@ int options(int total){
 
 int showWord(int index){
   char ch=0;
-  int keypressed = 0;
   char iWord[MAX_TEXT];
   char iTran[MAX_TEXT];
   char iCom[MAX_TEXT];
@@ -291,77 +373,10 @@ void mainwindow(){
 
 }
 
-int write_data(){
-   int i=0;
-   FILE *fp = fopen(DICTIONARY, "w");
-   rewind(fp);
-  if (fp == NULL) {
-        perror("Failed to open file");
-        return 1;
-    }
-   fprintf(fp, "ID,WORD,TRANSLITION,COMMENT\n");
-   for (i=1; i<entries; i++){
-      fprintf(fp, "%d,%s,%s,%s\n", i, miArray2.data[i],miArray3.data[i],miArray4.data[i]);
-   }
-   fclose(fp);
-   return 0;
-}
-
-int load_history(int ascending, const char *instrstr) {
-   int i=0;
-   int linecount=0;
-   FILE *fp = fopen(DICTIONARY, "r");
-     if  (miArray1.size>0) freeStringArray(&miArray1);
-     if (miArray2.size>0) freeStringArray(&miArray2);
-     if (miArray3.size>0) freeStringArray(&miArray3);
-     if (miArray4.size>0) freeStringArray(&miArray4);
-    initStringArray(&miArray1);
-    initStringArray(&miArray2);
-    initStringArray(&miArray3);
-    initStringArray(&miArray4);
-  
-   if (!fp) {
-        perror("Failed to open file");
-        listBox1 = addatend(listBox1, newitem("No data found!", -1, -1, -1, -1));
-        return 1;
-    }
-
-    char fields[4][255];
-
-    while (parse_csv_line(fp, fields)) {
-        addString(&miArray1, fields[0]);
-        addString(&miArray2, fields[1]);
-        addString(&miArray3, fields[2]);
-        addString(&miArray4, fields[3]);
-	linecount++;
-    }
-    if (linecount >1){
-	    for (i=1;i<linecount;i++){
-               listBox1 = addatend(listBox1, newitem(miArray2.data[i], -1, -1, -1, -1));
-	    }
-
-    } else
-        listBox1 = addatend(listBox1, newitem("No data found!", -1, -1, -1, -1));
-    fclose(fp);
-    return linecount;
-}
-
-void addEntry(char *word, char *translation, char *comment){
-  FILE *fp = fopen(DICTIONARY, "a");
-  if (fp == NULL) {
-        perror("Failed to open file");
-        return 1;
-    }
-   fprintf(fp, "%d,%s,%s,%s\n", entries, word,translation,comment);
-   fclose(fp);
-}
-
 int main() {
-    size_t k = 0;
     char ch=0;
-    char command[500];
-    int invert = 0;
-   char csearch[MAX_TEXT];
+//    int invert = 0;
+    //char csearch[MAX_TEXT];
    srand(time(NULL));  // Seed the random number generator (only once)
 
   
@@ -379,9 +394,8 @@ int main() {
 
     resetScrollData(&scrollData);
     setselectorLimit(termC-11);
-   csearch[0] = '\0';
  do{ 
-    entries=load_history(invert,csearch);
+    entries=load_history();
     mainwindow();
     gotoxy((termC/2)-10,(termR/2)-5);
     outputcolor(F_BLACK,B_WHITE);
@@ -410,16 +424,13 @@ int main() {
    ch++;
    draw_transparent(5, (termR/2) - 6, termC-5, (termR/2) +6);
    gotoxy(globalCursorX, globalCursorY-2);
-    close_term();
+   close_term();
     
    if (scrollData.screenChanged == 1) system("clear");
     printf("\n");
     //printf("First run: %d:%d:%c\n",globalCursorX,globalCursorY,ch);
    //write(STDOUT_FILENO, scrollData.item, strlen(scrollData.item)); 
    if (scrollData.itemIndex != -1)  {
-     strcpy(command, "\0"); 
-     strcat(command, scrollData.item);
-     if (scrollData.lastch!=K_TAB) strcat(command, "\n");
      //system(command);
 //    for (k = 0; k < strlen(command); k++) {
 //     ioctl(STDIN_FILENO, TIOCSTI, &command[k]);

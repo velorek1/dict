@@ -6,6 +6,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <time.h>
+#include <ctype.h>
 #include "rterm.h"
 #include "listc.h"
 #include "keyb.h"
@@ -50,6 +51,7 @@ void addEntry(char *word, char *translation, char *comment);
 int write_data();
 void input(char csearch[MAX_TEXT]);
 int options(int total);
+int strlow(char s[MAX_TEXT]);
 int guessWord(int index);
 void write_dialog();
 int showWord(int index);
@@ -305,6 +307,15 @@ int options(int total){
   return 0;
 }
 
+
+int strlow(char s[MAX_TEXT]) {
+    int i=0;
+    for (i=0; i<MAX_TEXT; i++) {
+        s[i] = (char)tolower((unsigned char)s[i]);
+    }
+    return 0;
+}
+
 int guessWord(int index){
   char iWord[MAX_TEXT];
   char previous[MAX_TEXT];
@@ -347,6 +358,8 @@ int guessWord(int index){
              textbox(7, (termR/2)+7-1, 20,"Guess:", iWord, B_RED, FH_WHITE, F_WHITE, 1);
              strcpy(previous,miArray2.data[index]);
              wordcount++;
+	     strlow(iWord);
+	     strlow(previous);
 	     if (strcmp(iWord,previous) == 0) {correct = 1; cw++;}
 	     else correct = 0;
 

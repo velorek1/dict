@@ -1,24 +1,24 @@
 ID,WORD,TRANSLATION,COMMENT
-1,slag off (BrE),poner podre,English
-2,reek,"tufo, apestar - riech",English
-3,go berserk,"go crazy, ponerse como una fiera",English
-4,dicey,cq. risky,English
+1,slag off ,poner podre,(BrE)
+2,reek,"tufo, apestar",Riech in German
+3,go berserk,ponerse como una fiera,go crazy
+4,dicey,"arriesgado, peligroso",risky
 5,at large,anda suelto,English
-6,a wedge issue,asunto controversial,English
-7,nub,"gist/""quid""",English
+6,a wedge issue,asunto controversial,three words
+7,nub,"meollo, quid",gist/guid
 8,lease,arrendar/alquilar,English
-9,conudrum/conundra,enigma/misterio,English
+9,conudrum,enigma/misterio,Pl. conundra
 10,nefarious,perverso/malvado,English
 11,flummoxed,desconcertado/confundido,English
 12,flout,despreciar/desobedecer,English
-13,quiver_shudder,temblar,English
+13,quiver,temblar,shudder
 14,bad temper,mal carácter,English
-15,pounce,jump upon prey/abalanzarse,English
-16,slobber_drooling,babear,English
-17,mangy,"sarnoso, mezquino, desgastado",English
+15,pounce,abalanzarse,jump upon prey
+16,slobber,babear,drooling intensely
+17,mangy,"sarnoso, mezquino",desgastado
 18,turtle-dove,tortolito,English
-19,tingle,feel prickly sensatione,estremecimiento/hormigueo/English
-20,warthog,jabalí africano,_wild boar with tusks/English
+19,tingle,hormigueo,feel prickly sensation
+20,warthog,jabalí africano,wild boar with tusks
 21,tusk,colmillo,English
 22,murky,turbio/oscuro,English
 23,hog,glotón/cerdo/acaparar,English
@@ -26,15 +26,15 @@ ID,WORD,TRANSLATION,COMMENT
 25,grovel,postrarse/humillarse,English
 26,gravel,gravilla,English
 27,dawdle,entrenerse /perder el tiempo move without haste,English
-28,latch on,attracted/negative,English
-29,pry,impertinente,English
+28,latch on,"atraído, subirse al carro",Attracted/clingy
+29,pry,impertinente,noisy/intrusive
 30,egg plant/beet,berenjena,English
 31,furlough,military leave/permit,English
 32,in the throes of,en la agonía/penas,English
 33,chipmunk,tipo de ardilla con rayas/squirrel,English
 34,rue,lamentar/compadecerse,English
-35,jeer,mofarse de/abuchear - boo/jeer at,English
-36,snitch,informer/whistleblower/chivato,English
+35,jeer,mofarse de/abuchear,Boo at
+36,snitch,informer/chivato,whistleblower
 37,swoop,descender en picado,English
 38,drab,"apagado, soso",English
 39,yearn,long for,English
@@ -42,20 +42,20 @@ ID,WORD,TRANSLATION,COMMENT
 41,raid,redada,English
 42,stifle,reprimir,English
 43,qualm,reparo,English
-44,pry,husmear/fisgonear,English
+44,pry,husmear/fisgonear,Verb
 45,perks,ventajas,English
 46,tributary,afluente,English
-47,rail against,criticise harshly/despotraticar,English
-48,lapel,solapa (l@'pel),English
+47,rail against,despotraticar,criticise harshly (phrasal verb)
+48,lapel,solapa,English
 49,proxy,poder,English
 50,bunk,litera,English
 51,stingy,tacaño,English
 52,craving,antojo,English
-53,conjure up,it conjures up images,English
+53,conjure up,"evocar, traer a la mente",Phrasal verb/evoke/summon
 54,co-signer,avalista,English
 55,make a killing,forrarse,English
 56,pet peeve,manía,English
-57,yank,pull strongly  on,English
+57,yank,tirar fuerte,pull strongly  on
 58,ham up,sobreactuar,English
 59,outlook,perspectiva,English
 60,fan out,dispersarse,English
@@ -63,45 +63,45 @@ ID,WORD,TRANSLATION,COMMENT
 62,bleak,"desalentador, oscuro",English
 63,tarp,lona,English
 64,top-notch,de primera,English
-65,slick,(movement) suave,English
+65,slick,suave,"De movimiento, actuación"
 66,dainty,"mono,elegante",English
 67,haphazard,"caótico, desordendo",English
 68,tarp,lona,English
 69,awning,toldo,English
-70,home improvements,DIY-bricolaje,English
+70,home improvements,bricolaje,DIY
 71,upholster,tapizar,English
-72,round ticket AmE,viaje de ida y vuelta,English
-73,return ticket BrE,ida y vuelta,English
-74,to catch sb off-guard,pillar desprevenido,English
+72,round ticket ,viaje de ida y vuelta,AmE
+73,return ticket ,ida y vuelta,BrE
+74,catch off-guard,pillar desprevenido,Sb. phrasal verb
 75,tailgate,drive closely behind,English
 76,do in,exhaust,English
 77,bode,presagiar,English
 78,lousy,pésimo,English
-79,creep out,asustar,English
-80,fling,flung flung ,throw/cast 2.affaire
-81,hit it off,llevarse bien/hacer migas,English
-82,rubble,debris/ escombros,English
+79,creep out,asustar,Phrasal verb
+80,fling,Tirar,throw/cast 2.affaire/flung
+81,hit it off,llevarse bien/hacer migas,Phrsal verb
+82,rubble,debris/escombros,English
 83,stowaway,polizón,English
-84,acting up,actuar de forma extraña,Twitter is acting up
-85,kiss up,ass-licking; hacer la pelota,English
+84,act up,actuar de forma extraña,Phrasal verb
+85,kiss up,hacer la pelota,ass-licking
 86,lop off,cut,English
 87,rack,tendedero,English
-88,take on,poner en nómina,English
+88,take on,contratar,Phrasal verb
 89,put under,dormir/sedar,English
-90,let on,dar prenda,English
+90,let on,dar prenda/revelar info,Phrasal verb
 91,usher,acomodador,English
-92,flipchart,bloc de notas,English
-93,dingy,shabby,English
-94,hurl,throw,English
+92,flipchart,bloc de notas/pizarra,English
+93,dingy,"sucio, raído",shabby
+94,hurl,tirar algo con fuerza,Throw with force
 95,mink,bisón,English
 96,lewd,lujurioso/lascivo,English
 97,bromide,trivialidad,English
 98,morbid,morbo,English
 99,flip-flopper,chaquetero,English
-100,chuck out,"throw away, mandar a paseo",English
-101,scathing,"feroz,cruel",English
-102,seedy,"sleazy, de mala fama",English
-103,pout,"complain, morros",English
+100,chuck out,mandar a paseo,"throw away, Phrasal verb"
+101,scathing,"feroz,cruel",Adjetivo
+102,seedy, de mala fama,"sleazy, adjetivo"
+103,pout,"complain, poner morros",English
 104,spitting image,viva imagen,English
 105,handspring,flip-flap,English
 106,scrawny,flacucho,English
@@ -111,13 +111,13 @@ ID,WORD,TRANSLATION,COMMENT
 110,white coat,bata de lab coat,English
 111,shovel,spade,English
 112,drying rack,tendedero,English
-113,conniving,"conspirador,confabulador (scheming)",English
-114,gorge,atiborrarse /binge,English
-115,rubble,rock remains / debris,English
-116,lewd,lascivo (lud),English
-117,sulky teenager,malhumorado,English
+113,conniving,"conspirador,confabulador", Scheming
+114,gorge,atiborrarse,Reflexive on/at
+115,rubble,escombros,rock remains / debris
+116,lewd,lascivo,lud
+117,sulky,malhumorado,Eg. teenager
 118,tell-tale,delatante,English
-119,pander,try to please sb,English
+119,pander,"complacer, hacer la pelota",try to please sb
 120,foraging,ir en busca de comida,English
 121,on pins and needles,"in suspense, excited",English
 122,slab of granite,losa/bloque,English
@@ -128,1072 +128,1072 @@ ID,WORD,TRANSLATION,COMMENT
 127,trample,tread heavily/crush pisotear,English
 128,lightweight,a person who gets drunk easily,English
 129,budding,"incipiente, en ciernes",English
-129,soppy UK,sentimentaloide,English
-260,soapy,empalagoso,English
-261,thump,hit sth hard/punch,English
-262,pledge,promise,English
-263,underpin,supports,English
-264,state of wretchedness,miserable state,English
-265,hull,casco (h^l),English
-266,throng,crowd,English
-267,dangle,hang loosely,English
-268,sheath,vaina,English
-279,bouncer,"portero, segurata",English
-280,stretcher/gurney,camilla,Gurney
-281,baulk/balk,refuse,English
-282,upholstery,tapiceria,English
-283,dashboard,salpicadero,English
-284,glove box,guantera,English
-285,gash,"raja, tajo, injury",English
-286,gush,salir a borbotones/hablar,con entusiasmo/English
-287,bickering,petty arguments (riñas),English
-288,scab,costra,English
-289,pushpin/thumbtack,chincheta,English
-290,thumbnail,miniatura,English
-291,manger (meind3er),pesebre,English
-292,snare,cepo/animal trap,English
-293,wedge,meter,English
-294,grim,sombrío,English
-295,beguiling,enchanting,English
-296,hearse,(hers)=coche fúnebre,English
-297,hearth,fireplace,English
-298,belittle,menospreciar,English
-299,dainty,"exquisito, refinado",English
-300,hag,ugly old woman;arpía,English
-301,reel,tambalearse;dar vueltas,English
-302,berate,scold,English
-303,belated,happy belated birthday,English
-304,assess,appraise=evaluate,English
-305,schackles,restraints/cadenas,English
-306,normalcy,(n) normal,English
-307,relaxation,(n) relax,English
-308,cough up,apoquinar (uk.slang),English
-309,peaky,"paliducha, enferma (uk)",English
-310,balaclava,pasamontaña.,English
-311,slag off,criticar (uk),English
-312,stunted growth,crecimiento retardado,English
-313,ragtag,variado/hetereogéneo,motley-assorted
-314,bead,"piece of jewellery,abalorio",English
-315,shawl,"chal, mantón",English
-316,purvey,provide/purveyour,English
-317,get the munchies,antojo,English
-318,ledge,saliente/repisa,English
-319,chair lift,teleferico,English
-320,dot.dot.dot,points/periods of ellipsis,English
-321,slack off,bunk off,English
-322,anchor down,fijar,English
-183,stand pat,stand firm,English
-369,orderly,celador,English
-370,wanton,sin sentido,English
-371,wantonness,"extravagant, random",English
-372,weary,tired,English
-373,rife,abundante/widespread,speculation/English
-374,show-off,fantasma,English
-375,HOA,home owners association,English
-376,lash out,attack verbally,English
-377,harass,acosar,English
-378,sling,throw,English
-379,rub shoulders,hobnob/codearse,English
-380,phase in/out,introducir progresivamente,[/z/]English
-381,leap year,bisiesto,English
-382,wary,"receloso, precavido",English
-383,strife,luchar;struggle,English
-384,caveat,['kaeviaet] advertencia,English
-385,rig,amañar/manipular,"(it was rigged=tongo) 1= install,set up"
-386,frantic,desesperado; frenetico,English
-387,bequeath,leave in will = give,English
-388,wreak,bring about= cause to happen = infligir,English
-389,pucker,"fruncir, doblar; pucker your lips",English
-390,chickpea,guisante,English
-391,leek,puerro,English
-392,avocado,aguacate,English
-393,rich,"empalogoso, indigesto, pesada",English
-394,barring,prep. exceptuando,English
-395,bummer,us. rollo,English
-396,have his work cut out,sudar la gota gorda,difficult/English
-397,moss,musgo,English
-398,curly braces,corchetes,English
-399,teeming with,abundant,English
-400,calf,1 ternero 2= calves;gemelos,English
-401,bellows,fuelle/grito/mugir,English
-402,take a stab,intento,English
-403,grit,gravilla|2.determinacion,2.determination/agallas/mota English
-404,veer of,swerve,English
-405,toating,reventa,English
-406,fare-dodging,"no pagar el metro, etc",English
-407,hang around,juntarse con/holgazanear,English
-408,froth,foam,English
-409,at behest of,como mandato/orden,English
-410,verbatim(bei),textualmente,English
-411,mop head,hortensia,English
-412,fern,helecho,English
-413,light-headed,dizzy,English
-414,silicone,silikeun= silicona,English
-415,silicon,siliken= silicio,English
-416,referral,derivación/referencia,English
-417,calf,pantorilla/gemelos,English
-418,shin,espinilla/era,English
-419,unsubstantiated,no comprobado/corroborado,English
-420,conjoined twins,siameses,English
-421,oversight,1.descuido2.vigilancia,English
-422,manhole cover,tapa de alcantarilla,English
-423,cumbersome,torpe;difícil de manajar,English
-424,cumbersome,cumbersome burden,English
-240,uncanny,strange/raro/sorprendente,English
-482,vested interest,interés particular,English
-483,huddled,crowded,English
-484,daunting,abrumador/acogedor,English
-485,pew,banco de iglesia,English
-486,privy,1.conocer/2.letrina,English
-487,demeanor,US. behaviour,English
-488,reductive,reduccionista,reductionist-English
-489,ambience,atmosphere,English
-490,tooth veneer,fundas,English
-491,set ablaze,set on fire,English
-492,spool of string,reel,English
-493,hundreds&thousands,virutas,English
-494,tumbleweed,matojo rodante,English
-495,come to grips,understand,English
-496,gnawing,"nagging:constante, feeling",English
-497,bury the lede/lead,start story with secondary events,English
-498,gauze,gasa médica,English
-499,c-section/caesarean,cesárea,English
-500,appeal,recurrir,English
-501,break even,salir a cuentas,English
-502,cramp,calambre,English
-503,take a stab,intento,English
-504,soot,ollín,English
-505,uphold,mantener,uphold your end of the bargain
-506,foregone,inevitable,it's a foregone conclusion
-507,envisage,imaginar/prever,in'vizid3
-508,wallow,regodearse,dwell
-509,bash,vapulear,criticize severely
-510,embezzlement,malversación,misappropiation/fraud
-511,twiddle,fiddle idly with,juguetear
-512,beget,engendra,begot/begat-begotten
-513,bespeak,denotes,indicates
-514,tweak,modify slightly,alteración
-515,hang back,draw back from,hung/hung;retroceder
-516,take up with,start keeping company of,he's taken up with a very undesirable crew
-517,dismal,dark and drepressing,a dismal few months
-518,toe the line,conform/ponerse las pilas,conform to a rule
-519,foolproof,it cannot go wrong,a prueba de tontos
-520,touch and go,precarious/unpredictable,a touch and go situation
-521,foregone,certain to happen,inevitable
-522,slushy,sensiblero,2.melted
-523,on the cusp,on the threshold,cusp-cúspide
-524,stir up,provoke/incite,provocar
-525,daunting,intimidador/sobrecogedor,daunted
-526,chuck in,uk.quit doing,uk
-527,rabbit on,uk.talk incessantly,uk
-528,tantrum,rabieta,p. tandrem
-529,groin,ingle,ingle
-530,easel,cabellete de pintura,artist
-531,trestle,caballete de obra,English
-532,adamant,insistente/firme,he was adamant in his refusal
-533,zeal,fervor/entusiasmo,fervor/enthusiasm
-534,zealous,passionate,supporting an idea passionately
-535,lore,sabiduría popular,folk wisdom
-536,quell,quash/quench,sofocar
-537,rousing,stirring/emocionante,stirring
-538,ransack,pluner/pillage,saquear
-539,squander on sth,waste on st,derrochar
-540,AWOL,absent without leave,ausentado sin permiso
-541,skillet,Am.E frying pan,sartén
-542,whorl,spiral/espiral,w3rl
-543,writhe,squirm/twist in pain,retorcerse
-544,arraign,procesar/enjuciar,take to court
-545,husk,cáscara/shell,outer shell
-546,portly,corupuleto/grueso,English
-547,condo,Us.bloque de apartamentos,condominium
-548,demist,desempañar,clear vapour from window
-549,hay fever,alergia la polen,English
-550,wry,irony,dry/witty.English
-551,enamel,esmalte,nail enamel
-552,henchman,secuaz/seguidor,sidekick/English
-553,car jack,gato,jack up/subir
-554,catcall,abuchear/jeer,English
-555,dowry,dote/dower,Bride's money
-556,plush,felpa,English
-557,jaundice,ictericia,English
-558,stump,muñón,English
-559,slug,babosa,English
-560,implement,piece of equipment,English
-561,prong,spike of a fork,English
-562,girth,contorno/circumference,English
-563,fluff,sin valor/de relleno/trivial,English
-564,teeny,tiny,English
-565,garner,reunir/obtener,gather/earn
-566,wholesome,moralmente íntegro/de bien,English
-567,eddy,remolino/torbellino,English
-327,wake,estela(water),track of waves
-656,meandering,serpenteante,English
-657,badger,pester/incordiar/tejón,English
-658,lime,cal,English
-659,mechanical pencil,lead pencil,Portaminas
-660,skunk,mofeta,English
-661,shred,tira/hacer tiras,"piece,strip"
-662,fern,helecho,English
-663,snub,desdeñar/deairar,snubbed
-664,squabble,"quarrel,arque",English
-665,ladle,cucharón sopera,English
-666,cartwheel,voltereta lateral,English
-667,clove,a clove/diente of garlic,English
-668,wane,declinar/menguar,English
-669,stork,cigüeña,English
-670,bludgeon,aporrear/club/cudgel,English
-671,elk,alce,English
-672,staff/staves,pentagrama,English
-673,sawdust,serín,English
-674,barricade,barrera,English
-675,helmsman,timonel,English
-676,earwig,tijereta/insecto,English
-677,commiserations,conmiseraciones/sympathy,English
-678,cleave,1.split/2.stick fast to,English
-679,graze,rozar/scrape,English
-680,hamper,US. cesto ropa sucia,English
-681,stale,rancio/viejo,English
-682,etch,engrave/grabar,English
-683,roil,swirl/agitarse,Enturbiarse/English
-684,vitroceramic hob,vitroceramic cooktop,English
-685,starter,apetizer,English
-686,disheveled,dishevelled/unkempt,Desaliñado/English
-687,squint,mirar de reojo,entrecerrar los ojos
-688,marshal,(v)reunir,English
-689,hasten,apresurar/purar,English
-690,wean off,destetar/desenganchar,English
-691,lukewarm,tibio/tibia,English
-692,barge in,interrumpir/colarse,English
-693,lodge,stuck,English
-694,cherry pick,manipular selection,English
-695,rye,centeno,English
-368,lye,NaOH/sosa,English
-738,behooves/behoves,VI. be good/necessary,incumbir/it behooves you to watch your language
-739,glare,angry look/fulminante,English
-740,glaze over,mirada indiferente,English
-741,steadfast,firme/acérrimo/inalterable,English
-742,meek,dócil/manso/sumiso,English
-743,raffle,rifa,English
-744,scamper,corretear,English
-745,disgruntled,dissatisfied/disgutado,English
-746,tug,tirar/pull/yank/tow,English
-747,truss up,tie,English
-748,batch,lote/tanda/remesa,English
-749,dip into,break into,Empezar a usar ahorros
-750,haunch,hip/patas traseras,caderas
-751,skimpy,escaso/revelador,English
-752,one-night stand,rollo de una noche,English
-753,high-handedness,arbitrariedad/prepotencia,using power or authority whithout considering the feeling of others
-754,haughty,altanero/pretotente,disdainful
-755,frills,florituras,English
-756,sachet,sugar sachet/bolsita,English
-757,eave,cornisa/alero,English
-758,guffaw,carcajada/loud laughter,English
-759,tawdry,sórdido/chabacano,gaudy/tasteless/English
-760,bawdy,obsceno/lascivo,English
-761,morning coat,chaqué,English
-762,shun,evitar/rehuír,English
-763,starch,almidón,English
-764,midwife,matrona,English
-765,roving,itinerante/deambulante,English
-766,akin to,similar to,English
-767,piggyback,montar/ir a caballito,English
-768,umpire,"árbitro tennis,etc",Englih
-769,shuttlecock,volante bádminton,English
-770,pendant,colgante,English
-771,brooch,broche/Breutch/,English
-772,pleated,funcido/plegado,English
-773,stocky,fornido,English
-774,toiletries,productos de aseo,grooming products
-775,thunderclap,trueno,English
-776,toxic effluent,vertido,English
-777,bolt food down,enguillir,English
-778,sickly,empalagoso,English
-779,stodgy,comida pesada,English
-780,budgerigar,periquito,English
-781,nudge,codazo/empujón,English
-782,stance,posture,English
-783,strew,scatter,Strew-strewed-strewn
-784,call for,requerir,This calls for a beer
-785,shirk,eludir/vaguear,a duty;evade
-786,knead,amasar/hendir,dough
-787,dull(v),atenuar,sound/pain
-788,stub,hit your toe painfully,English
-789,bloating,hinchando/inflando,English
-790,scammer,estafador,English
-791,spinning top,peonza,English
-792,slough off,desahacerse/shed skin,English
-793,taunt,tease/burlarse,English
-794,acquiesce,presentarse/consentir,English
-795,overbearing,prepotente,English
-796,comeuppance,merecedido,English
-797,artichoke,alcachofa,English
-798,girdle,faja,English
-800,pothole,bache,English
-801,rough patch,bache económico,English
-802,bearing,rodamiento,English
-803,light-hearted,desenfadado/not serious,English
-804,leeway,margen/amplitud,margin/allowance
-805,to the brim,to the rafters,English
-806,surmise,conjeturar/deduce/suponer,English
-807,escargot,snail as food,English-French
-808,cufflinks,gemelos,English
-809,nursing,enfermería,Healthcare studies
-810,touted,mentada/promocionada,highly touted
-811,stub out, put out a cigarrette,English
-812,flippers,aletas bucear,swim fins/English
-813,hash out,work hard to negotiate,English
-814,pan out,result/dar resultado,English
-815,live down,get over/superaar vergüenza,English
-816,zipline,tirolina,English
-817,squirm,retorcerse/liberarse,English
-818,size up,evaluate/study,English
-819,anesthetist,anestesista,anísthetist
-820,adenoids,adenoides/vegataciones,English
-821,toff,posh,English
-822,cockles,berberechos,English
-823,scythe,guadaña/saith,English
-824,sickle,hoz,English
-825,undergrowth,maleza,English
-826,crane,grulla,English
-827,grub,larva/(v)excavar,gr^b/English
-828,elope,fugarse,English
-829,pan,criticise harshly,English; panned by the critics
-830,zuchinni/courgette,calabacín,English
-831,drop off,dormir,English/doze off
-832,soggy,1.empadado/2.pastoso,English;bedraggle:make sth soggy and dirty
-833,glower,matar con la mirada,English
+130,soppy,sentimentaloide,UK
+131,soapy,empalagoso,English
+132,thump,hit sth hard/punch,English
+133,pledge,promise,English
+134,underpin,supports,English
+135,state of wretchedness,miserable state,English
+136,hull,casco (h^l),English
+137,throng,crowd,English
+138,dangle,hang loosely,English
+139,sheath,vaina,English
+140,bouncer,"portero, segurata",English
+141,stretcher,camilla,Gurney
+142,baulk,refuse,balk
+143,upholstery,tapiceria,English
+144,dashboard,salpicadero,English
+145,glove box,guantera,English
+146,gash,"raja, tajo, injury",English
+147,gush,salir a borbotones/hablar,con entusiasmo/English
+148,bickering,petty arguments (riñas),English
+149,scab,costra,English
+150,pushpin,chincheta,thumbtack
+151,thumbnail,miniatura,English
+152,manger ,pesebre,(meind3er)
+153,snare,cepo/animal trap,English
+154,wedge,meter,English
+155,grim,sombrío,English
+156,beguiling,enchanting,English
+157,hearse,(hers)=coche fúnebre,English
+158,hearth,fireplace,English
+159,belittle,menospreciar,English
+160,dainty,"exquisito, refinado",English
+161,hag,ugly old woman;arpía,English
+162,reel,tambalearse;dar vueltas,English
+163,berate,scold,English
+164,belated,happy belated birthday,English
+165,assess,appraise=evaluate,English
+166,schackles,restraints/cadenas,English
+167,normalcy,(n) normal,English
+168,relaxation,(n) relax,English
+169,cough up,apoquinar (uk.slang),English
+170,peaky,"paliducha, enferma (uk)",English
+171,balaclava,pasamontaña.,English
+172,slag off,criticar (uk),English
+173,stunted growth,crecimiento retardado,English
+174,ragtag,variado/hetereogéneo,motley-assorted
+175,bead,"piece of jewellery,abalorio",English
+176,shawl,"chal, mantón",English
+177,purvey,provide/purveyour,English
+178,get the munchies,antojo,English
+179,ledge,saliente/repisa,English
+180,chair lift,teleferico,English
+181,dot.dot.dot,points/periods of ellipsis,English
+182,slack off,bunk off,English
+183,anchor down,fijar,English
+184,stand pat,stand firm,English
+185,orderly,celador,English
+186,wanton,sin sentido,English
+187,wantonness,"extravagant, random",English
+188,weary,tired,English
+189,rife,abundante/widespread,speculation/English
+190,show-off,fantasma,English
+191,HOA,home owners association,English
+192,lash out,attack verbally,English
+193,harass,acosar,English
+194,sling,throw,English
+195,rub shoulders,hobnob/codearse,English
+196,phase in/out,introducir progresivamente,[/z/]English
+197,leap year,bisiesto,English
+198,wary,"receloso, precavido",English
+199,strife,luchar;struggle,English
+200,caveat,['kaeviaet] advertencia,English
+201,rig,amañar/manipular,"(it was rigged=tongo) 1= install,set up"
+202,frantic,desesperado; frenetico,English
+203,bequeath,leave in will = give,English
+204,wreak,bring about= cause to happen = infligir,English
+205,pucker,"fruncir, doblar; pucker your lips",English
+206,chickpea,guisante,English
+207,leek,puerro,English
+208,avocado,aguacate,English
+209,rich,"empalogoso, indigesto, pesada",English
+210,barring,prep. exceptuando,English
+211,bummer,us. rollo,English
+212,have your work cut out,sudar la gota gorda,difficult/English
+213,moss,musgo,English
+214,curly braces,corchetes,English
+215,teeming with,abundant,English
+216,calf,1 ternero 2= calves;gemelos,English
+217,bellows,fuelle/grito/mugir,English
+218,take a stab,intento,English
+219,grit,gravilla|2.determinacion,2.determination/agallas/mota English
+220,veer of,swerve,English
+221,toating,reventa,English
+222,fare-dodging,"no pagar el metro, etc",English
+223,hang around,juntarse con/holgazanear,English
+224,froth,foam,English
+225,at behest of,como mandato/orden,English
+226,verbatim,textualmente,(bei)
+227,mop head,hortensia,English
+228,fern,helecho,English
+229,light-headed,dizzy,English
+230,silicone,silikeun= silicona,English
+231,silicon,siliken= silicio,English
+232,referral,derivación/referencia,English
+233,calf,pantorilla/gemelos,English
+234,shin,espinilla/era,English
+235,unsubstantiated,no comprobado/corroborado,English
+236,conjoined twins,siameses,English
+237,oversight,1.descuido2.vigilancia,English
+238,manhole cover,tapa de alcantarilla,English
+239,cumbersome,torpe;difícil de manajar,English
+240,cumbersome,cumbersome burden,English
+241,uncanny,strange/raro/sorprendente,English
+242,vested interest,interés particular,English
+243,huddled,crowded,English
+244,daunting,abrumador/acogedor,English
+245,pew,banco de iglesia,English
+246,privy,1.conocer/2.letrina,English
+247,demeanor,US. behaviour,English
+248,reductive,reduccionista,reductionist-English
+249,ambience,atmosphere,English
+250,tooth veneer,fundas,English
+251,set ablaze,set on fire,English
+252,spool of string,reel,English
+253,hundreds&thousands,virutas,English
+254,tumbleweed,matojo rodante,English
+255,come to grips,understand,English
+256,gnawing,"nagging:constante, feeling",English
+257,bury the lede,start story with secondary events,lead
+258,gauze,gasa médica,English
+259,c-section,cesárea,caesarean
+260,appeal,recurrir,English
+261,break even,salir a cuentas,English
+262,cramp,calambre,English
+263,take a stab,intento,English
+264,soot,ollín,English
+265,uphold,mantener,uphold your end of the bargain
+266,foregone,inevitable,it's a foregone conclusion
+267,envisage,imaginar/prever,in'vizid3
+268,wallow,regodearse,dwell
+269,bash,vapulear,criticize severely
+270,embezzlement,malversación,misappropiation/fraud
+271,twiddle,fiddle idly with,juguetear
+272,beget,engendra,begot/begat-begotten
+273,bespeak,denotes,indicates
+274,tweak,modify slightly,alteración
+275,hang back,draw back from,hung/hung;retroceder
+276,take up with,start keeping company of,he's taken up with a very undesirable crew
+277,dismal,dark and drepressing,a dismal few months
+278,toe the line,conform/ponerse las pilas,conform to a rule
+279,foolproof,it cannot go wrong,a prueba de tontos
+280,touch and go,precarious/unpredictable,a touch and go situation
+281,foregone,certain to happen,inevitable
+282,slushy,sensiblero,2.melted
+283,on the cusp,on the threshold,cusp-cúspide
+284,stir up,provoke/incite,provocar
+285,daunting,intimidador/sobrecogedor,daunted
+286,chuck in,uk.quit doing,uk
+287,rabbit on,uk.talk incessantly,uk
+288,tantrum,rabieta,p. tandrem
+289,groin,ingle,ingle
+290,easel,cabellete de pintura,artist
+291,trestle,caballete de obra,English
+292,adamant,insistente/firme,he was adamant in his refusal
+293,zeal,fervor/entusiasmo,fervor/enthusiasm
+294,zealous,passionate,supporting an idea passionately
+295,lore,sabiduría popular,folk wisdom
+296,quell,quash/quench,sofocar
+297,rousing,stirring/emocionante,stirring
+298,ransack,pluner/pillage,saquear
+299,squander,waste on st,derrochar
+300,AWOL,absent without leave,ausentado sin permiso
+301,skillet,Am.E frying pan,sartén
+302,whorl,spiral/espiral,w3rl
+303,writhe,squirm/twist in pain,retorcerse
+304,arraign,procesar/enjuciar,take to court
+305,husk,cáscara/shell,outer shell
+306,portly,corupuleto/grueso,English
+307,condo,Us.bloque de apartamentos,condominium
+308,demist,desempañar,clear vapour from window
+309,hay fever,alergia la polen,English
+310,wry,irony,dry/witty.English
+311,enamel,esmalte,nail enamel
+312,henchman,secuaz/seguidor,sidekick/English
+313,car jack,gato,jack up/subir
+314,catcall,abuchear/jeer,English
+315,dowry,dote/dower,Bride's money
+316,plush,felpa,English
+317,jaundice,ictericia,English
+318,stump,muñón,English
+319,slug,babosa,English
+320,implement,piece of equipment,English
+321,prong,spike of a fork,English
+322,girth,contorno/circumference,English
+323,fluff,sin valor/de relleno/trivial,English
+324,teeny,tiny,English
+325,garner,reunir/obtener,gather/earn
+326,wholesome,moralmente íntegro/de bien,English
+327,eddy,remolino/torbellino,English
+328,wake,estela(water),track of waves
+329,meandering,serpenteante,English
+330,badger,pester/incordiar/tejón,English
+331,lime,cal,English
+332,mechanical pencil,lead pencil,Portaminas
+333,skunk,mofeta,English
+334,shred,tira/hacer tiras,"piece,strip"
+335,fern,helecho,English
+336,snub,desdeñar/deairar,snubbed
+337,squabble,"quarrel,arque",English
+338,ladle,cucharón sopera,English
+339,cartwheel,voltereta lateral,English
+340,clove,a clove/diente of garlic,English
+341,wane,declinar/menguar,English
+342,stork,cigüeña,English
+343,bludgeon,aporrear/club/cudgel,English
+344,elk,alce,English
+345,staff,pentagrama,Pl. staves
+346,sawdust,serín,English
+347,barricade,barrera,English
+348,helmsman,timonel,English
+349,earwig,tijereta/insecto,English
+350,commiserations,conmiseraciones/sympathy,English
+351,cleave,1.split/2.stick fast to,English
+352,graze,rozar/scrape,English
+353,hamper,US. cesto ropa sucia,English
+354,stale,rancio/viejo,English
+355,etch,engrave/grabar,English
+356,roil,swirl/agitarse,Enturbiarse/English
+357,vitroceramic hob,vitroceramic cooktop,English
+358,starter,apetizer,English
+359,disheveled,dishevelled/unkempt,Desaliñado/English
+360,squint,mirar de reojo,entrecerrar los ojos
+361,marshal,(v)reunir,English
+362,hasten,apresurar/purar,English
+363,wean off,destetar/desenganchar,English
+364,lukewarm,tibio/tibia,English
+365,barge in,interrumpir/colarse,English
+366,lodge,stuck,English
+367,cherry pick,manipular selection,English
+368,rye,centeno,English
+369,lye,NaOH/sosa,English
+370,behooves,VI. be good/necessary,incumbir/it x you to watch your language
+371,glare,angry look/fulminante,English
+372,glaze over,mirada indiferente,English
+373,steadfast,firme/acérrimo/inalterable,English
+374,meek,dócil/manso/sumiso,English
+375,raffle,rifa,English
+376,scamper,corretear,English
+377,disgruntled,dissatisfied/disgutado,English
+378,tug,tirar/pull/yank/tow,English
+379,truss up,tie,English
+380,batch,lote/tanda/remesa,English
+381,dip into,break into,Empezar a usar ahorros
+382,haunch,hip/patas traseras,caderas
+383,skimpy,escaso/revelador,English
+384,one-night stand,rollo de una noche,English
+385,high-handedness,arbitrariedad/prepotencia,using power or authority whithout considering the feeling of others
+386,haughty,altanero/pretotente,disdainful
+387,frills,florituras,English
+388,sachet,sugar sachet/bolsita,English
+389,eave,cornisa/alero,English
+390,guffaw,carcajada/loud laughter,English
+391,tawdry,sórdido/chabacano,gaudy/tasteless/English
+392,bawdy,obsceno/lascivo,English
+393,morning coat,chaqué,English
+394,shun,evitar/rehuír,English
+395,starch,almidón,English
+396,midwife,matrona,English
+397,roving,itinerante/deambulante,English
+398,akin to,similar to,English
+399,piggyback,montar/ir a caballito,English
+400,umpire,"árbitro tennis,etc",Englih
+401,shuttlecock,volante bádminton,English
+402,pendant,colgante,English
+403,brooch,broche/Breutch/,English
+404,pleated,funcido/plegado,English
+405,stocky,fornido,English
+406,toiletries,productos de aseo,grooming products
+407,thunderclap,trueno,English
+408,toxic effluent,vertido,English
+409,bolt food down,enguillir,English
+410,sickly,empalagoso,English
+411,stodgy,comida pesada,English
+412,budgerigar,periquito,English
+413,nudge,codazo/empujón,English
+414,stance,posture,English
+415,strew,scatter,Strew-strewed-strewn
+416,call for,requerir,This calls for a beer
+417,shirk,eludir/vaguear,a duty;evade
+418,knead,amasar/hendir,dough
+419,dull,atenuar,sound/pain ((v)
+420,stub,hit your toe painfully,English
+421,bloating,hinchando/inflando,English
+422,scammer,estafador,English
+423,spinning top,peonza,English
+424,slough off,desahacerse/shed skin,English
+425,taunt,tease/burlarse,English
+426,acquiesce,presentarse/consentir,English
+427,overbearing,prepotente,English
+428,comeuppance,merecedido,English
+429,artichoke,alcachofa,English
+430,girdle,faja,English
+431,pothole,bache,English
+432,rough patch,bache económico,English
+433,bearing,rodamiento,English
+434,light-hearted,desenfadado/not serious,English
+435,leeway,margen/amplitud,margin/allowance
+436,to the brim,to the rafters,English
+437,surmise,conjeturar/deduce/suponer,English
+438,escargot,snail as food,English-French
+439,cufflinks,gemelos,English
+440,nursing,enfermería,Healthcare studies
+441,touted,mentada/promocionada,highly touted
+442,stub out, put out a cigarrette,English
+443,flippers,aletas bucear,swim fins/English
+444,hash out,work hard to negotiate,English
+445,pan out,result/dar resultado,English
+446,live down,get over/superaar vergüenza,English
+447,zipline,tirolina,English
+448,squirm,retorcerse/liberarse,English
+449,size up,evaluate/study,English
+450,anesthetist,anestesista,anísthetist
+451,adenoids,adenoides/vegataciones,English
+452,toff,posh,English
+453,cockles,berberechos,English
+454,scythe,guadaña/saith,English
+455,sickle,hoz,English
+456,undergrowth,maleza,English
+457,crane,grulla,English
+458,grub,larva/(v)excavar,gr^b/English
+459,elope,fugarse,English
+460,pan,criticise harshly,English; panned by the critics
+461,zuchinni,calabacín,courgette
+462,drop off,dormir,English/doze off
+463,soggy,1.empadado/2.pastoso,English;bedraggle:make sth soggy and dirty
+464,glower,matar con la mirada,English
 465,outward flight,vuelo de salida,English
-931,paucity,escasez,English
-932,tally with,coincidir con,English
-933,wayward,obstinado/caprichoso,Wilful
-934,self-same,mismo,Engklish
-935,potted version,resumido,English
-936,run amok,ir alocadamente,English
-937,dead heat,draw/tie/emptate,English
-938,flaunt,show off,English/flaunt your wealth
-939,slump,flop down/desplomarse,couch/prices
-940,take a dim view,mirar con malos ojos,disapprove of
-941,wear sb down,convince through exhaustion,English
-942,prude,mojigato/puritano,English
-943,crass,coarse/de mal gusto/stupid,crass comment/crass assumption
-944,sap,1.sabia|2.minar/debilitar,English
-945,wheelbarrow,carretilla,English
-946,untenable,insostenible/indefendible,English
-947,hefty,importate/considerable,English
-948,perky,cheerful/cheerleader-like,English
-949,crease,arrugar/plegar,English
-950,overhaul,revisar/reparar,English/revamp
-951,pungent,1.olor acre/2.sarcástico,áspero/picante-English
-952,hound,acosar/perseguir,dog/English
-953,earmark,señalado para un uso,Emglish
-954,be bowled over,estar atónito/impresionado,English
-955,trifle with,tratar a la ligera,English
-956,to couch(v),expresar/insinuar,English
-957,indict,acusar/imputar,in'dait/English
-958,construe as,interpretar,English
-959,buffet(v),zarandear/golpear,English
-960,reprieve,indultar,Repriiv/pardon
-961,be swamped with,abrumado/overloaded,English
-962,tithe,diezmo,English
+466,paucity,escasez,English
+467,tally with,coincidir con,English
+468,wayward,obstinado/caprichoso,Wilful
+469,self-same,mismo,Engklish
+470,potted version,resumido,English
+471,run amok,ir alocadamente,English
+472,dead heat,draw/tie/emptate,English
+473,flaunt,show off,English/flaunt your wealth
+474,slump,flop down/desplomarse,couch/prices
+475,take a dim view,mirar con malos ojos,disapprove of
+476,wear sb down,convince through exhaustion,English
+477,prude,mojigato/puritano,English
+478,crass,coarse/de mal gusto/stupid,crass comment/crass assumption
+479,sap,1.sabia|2.minar/debilitar,English
+480,wheelbarrow,carretilla,English
+481,untenable,insostenible/indefendible,English
+482,hefty,importate/considerable,English
+483,perky,cheerful/cheerleader-like,English
+484,crease,arrugar/plegar,English
+485,overhaul,revisar/reparar,English/revamp
+486,pungent,1.olor acre/2.sarcástico,áspero/picante-English
+487,hound,acosar/perseguir,dog/English
+488,earmark,señalado para un uso,Emglish
+489,be bowled over,estar atónito/impresionado,English
+490,trifle with,tratar a la ligera,English
+491,to couch,expresar/insinuar,(v)
+492,indict,acusar/imputar,in'dait/English
+493,construe as,interpretar,English
+494,buffet,zarandear/golpear,(v)
+495,reprieve,indultar,Repriiv/pardon
+496,be swamped with,abrumado/overloaded,English
+497,tithe,diezmo,English
 498,busk,actuar en la calle,English
-997,pore over,peruse/leer atentamente,English
-998,cog,cogwheel/diente/rueda dentada,English
-999,dab,dar golpecitos,English
-1000,rapacious,rapaz/greedy,English
-1001,subpoena,summons/citación,S@b'pi:n@
-1002,shunt,push aside/cambiar de via,English
-1003,insurmountable,insalvable/insuperable,English
-1004,stalwart,leal/fiel,Loyal supporter
-1005,dowdy,desaliñado/frumpy,English
-1006,level-headed,racional/snesible,English
-1007,scrape through,aprobar por los pelos,English
-1008,bollard,bolardo,pylon/stanchion
-1009,sappy,sensiblero,English
-1010,cooped up,recluído/encerrado,English-Bran
-1011,lackey,lacayo,servant
-1012,ponderous,agotador/pesado,tiresome/heavy
-1013,snivel,lloriquear,English
-1014,fitting,appropriate,English
-1015,whelp,chaval/cachorro,(v)Parir
-1016,stilts,zancos,English
-1017,ire,ira,aier/rouse ire
-1018,glum,triste/melancólico,miserable
-1019,eviscerate,destripar/aniquilar,disembowel/gut
-1020,prune,pasa/2.podar,English/to prune something away
-1021,impudent,insolente,rude
-1022,tallow,sebo/grasa,English
-1023,foray,incursión militar,English
+499,pore over,peruse/leer atentamente,English
+500,cog,cogwheel/diente/rueda dentada,English
+501,dab,dar golpecitos,English
+502,rapacious,rapaz/greedy,English
+503,subpoena,summons/citación,S@b'pi:n@
+504,shunt,push aside/cambiar de via,English
+505,insurmountable,insalvable/insuperable,English
+506,stalwart,leal/fiel,Loyal supporter
+507,dowdy,desaliñado/frumpy,English
+508,level-headed,racional/snesible,English
+509,scrape through,aprobar por los pelos,English
+510,bollard,bolardo,pylon/stanchion
+511,sappy,sensiblero,English
+512,cooped up,recluído/encerrado,English-Bran
+513,lackey,lacayo,servant
+514,ponderous,agotador/pesado,tiresome/heavy
+515,snivel,lloriquear,English
+516,fitting,appropriate,English
+517,whelp,chaval/cachorro,(v)Parir
+518,stilts,zancos,English
+519,ire,ira,aier/rouse ire
+520,glum,triste/melancólico,miserable
+521,eviscerate,destripar/aniquilar,disembowel/gut
+522,prune,pasa/2.podar,English/to prune something away
+523,impudent,insolente,rude
+524,tallow,sebo/grasa,English
+525,foray,incursión militar,English
 526,penchant,prone to/afición,inclinación
-1053,mewl,gimotear,whimping
-1054,bawl,llorar a gritos,English
-1055,oaf,zoquete,English
-1056,corn,callos de los pies,English
-1057,quandary,dilema/kwa,English
-1058,prickly,quisquilloso/enojadizo,English
-1059,harrowing,desgarrador/horrible,distressing
-1060,dock(v),deducir/descontar,English
-1061,fleetingly,fugazmente,smile/think/see/recall
-1062,thimble,dedal,English
-1063,knock it off,stop it!,parar terminar
-1064,rattle off,decir de un tirón,English
-1065,flak,crítica,English
-1066,passbook/bankbook,cartilla,English
-1067,salacious,salaz/lascivo,Lewd
-1068,flock,reunir/gather,English
-1069,heartburn,acidez estómago,English
-1070,ram,carnero/male sheep,English/mutton
-1071,wherewithal,medios,werewi'thal
-1072,briches,calzones/breeches,calzones
-1073,canvas,lona(material),lienzo
-1074,rim,edge/llanta de coche,English
-1075,squalor,suciedad/mugre,English/s'kwal@r
-1076,cock-up,fracaso/desastre,uk.slang
-1077,propriety,decoro/modales,English
-1078,come about,come to be,English
-1079,ravenous,voraz/hambriento,English
-1080,sheepishly,avergonzadamente,English
-1081,sidle in,entrar furtivamente/sideways,English
-1082,denture,dentadura postiza,English
-1083,bask,disfrutar/echarse,sun/light
-1084,put paid to,finish off,put an end/stop to
-1085,dunk,mojar/dip,dip into liquids
-1086,flint,sílex,English
-1087,sound sb out,sondear/tantear,English
-1088,slovenly,descuidado/desaliñado,English
-1089,assail,attack,Engoish
-1090,eke out,racionar,eke out a living ganarse la vida a duras penas
-1091,ravage,devastar/hacer estragos,English
-1092,buffet,golpe,hit
-1093,straggler,rezagado,race
-1094,plod,walk slowly,trudge
-1095,disparage,hablar mal/menospreciar,speak badly of/belittle
-1096,overblown,pretencioso/exagerado,bombastic
-1097,deride,mofarse/burlarse,deirision
-1098,snarl up,atascar tráfico,get snarled up in traffic
-1099,spleen,bazo/2.bad temper,English
-1100,dank,cold and damp/cool,English
-1101,jarring,discordante/chirriante,disturbing/unpleasant
-1102,scowl,frown angrily,English
-1103,carrion,carroña,decomposing flesh/carrion bird
-1104,dung,manure/estiércol,English
-1105,perfunctory,superficial/indiferente,hasty/careless
-1106,debauch,corromper,di'bo:ch
-1107,harbinger,presagio/señal/heraldo,English
-1108,sagging,caido/flojo,techo
-1109,tirade,diatriba/alegato/remark,English
-1110,trounces,derrotar,English
-1111,leap,leapt-leapt,leaped
-1112,to be loath to,reluctant,English
-1113,tantamount to,equivalent,English
-1114,flaky,excentrico/unreliable,Phoebe
-1115,chapstick,barra de cacao,English
-1116,mulch,compost/abono,English-manure
-1117,turtleneck,cuello cisne/vuelto,English
-1118,turf,terreno/territorio,English
-1119,lampoon,burlarse/mock,English
-1120,stymied,obstaculizado,English
-1121,overkill,exagerado,English
-1122,buzzard,gavilán,English
-1123,sleuth,detective,Detective
-1124,stance,postura intelectual,English
-1125,fleeting,fugaz/breve,English
-1126,mar,marred/dañado,English/Painting
-1127,barge,bote/barcaza,English
-1128,kennel,perrera,English
-1129,clinch a deal,close a deal,English
+527,mewl,gimotear,whimping
+528,bawl,llorar a gritos,English
+529,oaf,zoquete,English
+530,corn,callos de los pies,English
+531,quandary,dilema/kwa,English
+532,prickly,quisquilloso/enojadizo,English
+533,harrowing,desgarrador/horrible,distressing
+534,dock,deducir/descontar,(v)
+535,fleetingly,fugazmente,smile/think/see/recall
+536,thimble,dedal,English
+537,knock it off,stop it!,parar terminar
+538,rattle off,decir de un tirón,English
+539,flak,crítica,English
+540,passbook,cartilla,bankbook
+541,salacious,salaz/lascivo,Lewd
+542,flock,reunir/gather,English
+543,heartburn,acidez estómago,English
+544,ram,carnero/male sheep,English/mutton
+545,wherewithal,medios,werewi'thal
+546,briches,calzones/breeches,calzones
+547,canvas,lona(material),lienzo
+548,rim,edge/llanta de coche,English
+549,squalor,suciedad/mugre,English/s'kwal@r
+550,cock-up,fracaso/desastre,uk.slang
+551,propriety,decoro/modales,English
+552,come about,come to be,English
+553,ravenous,voraz/hambriento,English
+554,sheepishly,avergonzadamente,English
+555,sidle in,entrar furtivamente/sideways,English
+556,denture,dentadura postiza,English
+557,bask,disfrutar/echarse,sun/light
+558,put paid to,finish off,put an end/stop to
+559,dunk,mojar/dip,dip into liquids
+560,flint,sílex,English
+561,sound out,sondear/tantear,Sb. phrasal verb
+562,slovenly,descuidado/desaliñado,English
+563,assail,attack,Engoish
+564,eke out,racionar,eke out a living ganarse la vida a duras penas
+565,ravage,devastar/hacer estragos,English
+566,buffet,golpe,hit
+567,straggler,rezagado,race
+568,plod,walk slowly,trudge
+569,disparage,hablar mal/menospreciar,speak badly of/belittle
+570,overblown,pretencioso/exagerado,bombastic
+571,deride,mofarse/burlarse,deirision
+572,snarl up,atascar tráfico,get snarled up in traffic
+573,spleen,bazo/2.bad temper,English
+574,dank,cold and damp/cool,English
+575,jarring,discordante/chirriante,disturbing/unpleasant
+576,scowl,frown angrily,English
+577,carrion,carroña,decomposing flesh/carrion bird
+578,dung,manure/estiércol,English
+579,perfunctory,superficial/indiferente,hasty/careless
+580,debauch,corromper,di'bo:ch
+581,harbinger,presagio/señal/heraldo,English
+582,sagging,caido/flojo,techo
+583,tirade,diatriba/alegato/remark,English
+584,trounces,derrotar,English
+585,leap,leapt-leapt,leaped
+586,to be loath to,reluctant,English
+587,tantamount to,equivalent,English
+588,flaky,excentrico/unreliable,Phoebe
+589,chapstick,barra de cacao,English
+590,mulch,compost/abono,English-manure
+591,turtleneck,cuello cisne/vuelto,English
+592,turf,terreno/territorio,English
+593,lampoon,burlarse/mock,English
+594,stymied,obstaculizado,English
+595,overkill,exagerado,English
+596,buzzard,gavilán,English
+597,sleuth,detective,Detective
+598,stance,postura intelectual,English
+599,fleeting,fugaz/breve,English
+600,mar,marred/dañado,English/Painting
+601,barge,bote/barcaza,English
+602,kennel,perrera,English
+603,clinch a deal,close a deal,English
 604,streamline,restructurar/racionalizar,English
-1209,winced,estremecerse,[wins]shudder/flinch
-1210,upend,overturn/derrocar,English
-1211,dodgy,sospechoso/turbio,inmoral
-1212,houndstooth,pata de gallo,pattern
-1213,lavish,generoso,English
-1214,girder,viga/supporting beam,English
-1215,vie/vying for,rivalizar/competir,English
-1216,vat,tine/tub/cuba,English
-1217,brokerage,correduría,English
-1218,bereaved,afligido,when you lost sb
-1219,pill/bobble,bolitas,fabric/my sweater is bobbling
-1220,ledger,libro de contabilidad,accounting book
-1221,cleats,zapatos de fútbol/tacos,English
-1222,on approval,en periodo de prueba,buy on approval
-1223,antsy,ansioso/inquieto,anxious
-1224,lash,azotar/golpea,wave
-1225,gyre,giro,giro/vortex
-1226,upshot,resultado,English
-1227,butt in,interrumpir,English-barge in
-1228,endearing,lovely/encantador,English
-1229,bequest,herencia/legado,will/bequeath:leave will
-1230,lowdown (on),toda la verdad/información,English
-1231,run/ladder,carrera medias,English
-1232,umpteenth,enésimo/a,English
-1233,clapperboard,claqueta cine,English
-1234,come out with,(say)salirse/venir con,English
-1235,sneer,burla/mueca/scorn,English
-1236,recant,retractarse,take back/withdraw
-1237,trot out,ensartar/recitar,English
-1238,mire,fango/quedar atascado,English
-1239,truancy,absentismo escolar,English
-1240,lob,lanzar en arco,tennis high/English
-1241,asunder,por separado,English
-1242,avail,hacer uso/servir,English-reflexive
-1243,dabble in,interesarse por algo,English
-1244,hone,afilar/sharpen,English-blade
-1245,prone,boca abajo,English
-1246,fraught(with),tenso/cargado de/lleno,English
-1247,skid,derrapar,English
-1248,amble,stroll,leisurely pace
-1249,bunion,juanete,b^nion
-1250,bland,soso/poco estimulante,English
-1251,scrapheap,desguace,basura metal
-1252,snug,cozy/close-fitting,English
-1253,saggy,flácido,English
-1254,dry up,quedarse en blanco/callarse,English
-1255,also-ran,segundón/perdedor,English
-1256,plank,tablón de mader,English
-1257,unenviable,envy,WF
-1258,stagger,tambalearse,walk unsteadily
-1259,slink,escabullierse,English-slunk-slunk
-1260,trudge,caminata/walk heavily,English
-1261,trundle,rodar/on wheels,move slowly
-1262,strut,pavonearse,walk proudly
-1263,loiter,dawdle/holgazanear,lounge
-1264,ghastly,horrible/pálido,cadavérico and dreaful
-1265,whir,spin noisily,English/insect/helicopter
-1266,pamper,mimar,English
-1267,outlay,spend/gasto,English
-1268,kink,vuelta/manía,torcedura/English
-1269,clutch,hold firmly,English
-1270,skive,bunk off,English
-1271,lush,exhuberante/frondoso,English
-1272,chug,drink in large gulps,English
-1273,ulna,cúbito and radius,English
-1274,unassailable,inexpugnable,English
-1275,alimony,pensión alimenticia,comyugal
-1276,leer,mirada lasciva,lustful look
-1277,seep,filtrarse/leak,also info
-1278,derelict,ruinoso/abandonado,English
-1279,in preference to,rather than,English
-1280,morouse,gloomy/taciturno,lúgubre/malhumorado
-1281,bane,ruina/perdición,English
-1282,jitter,be nervous,English
-1283,chuffed,uk. pleased,English
-1284,slate, uk. critisize,English
-1285,reams,lots,English
-1286,vet,revise,English
-1287,slack,suelto/flojo,English
-1288,hard-wearing,resistente/duradero,English
-1289,gallows,hora,English
-1290,naff,UK.slang. tacky,unfashionable/old/English
-1291,proselytize,try to attract converts,English
-1292,heave,tirar/lanzar/vomitar,heaves:arcadas/retch 
-1293,squelch,chapotear,English
-1294,gobble,engullir/deborar,English
-1295,stray,apartarse/desviarse,English
-1296,wraith,espectro/ghost,English
-1297,hew,taller/cortar,hewn
-1298,fudge,falsear/amañar,1.caramel/confection/slang
-1299,stand in good stead,servirle a uno,English
-1300,leastways,de todos modos,English/not to mention
-1301,scrub,cancelar/suspender,Emglish
-1302,sojourn,Estancia/estar temporalmente,English
+605,winced,estremecerse,[wins]shudder/flinch
+606,upend,overturn/derrocar,English
+607,dodgy,sospechoso/turbio,inmoral
+608,houndstooth,pata de gallo,pattern
+609,lavish,generoso,English
+610,girder,viga/supporting beam,English
+611,vie for,rivalizar/competir,vying for
+612,vat,tine/tub/cuba,English
+613,brokerage,correduría,English
+614,bereaved,afligido,when you lost sb
+615,pill/bobble,bolitas,fabric/my sweater is bobbling
+616,ledger,libro de contabilidad,accounting book
+617,cleats,zapatos de fútbol/tacos,English
+618,on approval,en periodo de prueba,buy on approval
+619,antsy,ansioso/inquieto,anxious
+620,lash,azotar/golpea,wave
+621,gyre,giro,giro/vortex
+622,upshot,resultado,English
+623,butt in,interrumpir,English-barge in
+624,endearing,lovely/encantador,English
+625,bequest,herencia/legado,will/bequeath:leave will
+626,lowdown,toda la verdad/información,(on)
+627,run/ladder,carrera medias,English
+628,umpteenth,enésimo/a,English
+629,clapperboard,claqueta cine,English
+630,come out with,(say)salirse/venir con,English
+631,sneer,burla/mueca/scorn,English
+632,recant,retractarse,take back/withdraw
+633,trot out,ensartar/recitar,English
+634,mire,fango/quedar atascado,English
+635,truancy,absentismo escolar,English
+636,lob,lanzar en arco,tennis high/English
+637,asunder,por separado,English
+638,avail,hacer uso/servir,English-reflexive
+639,dabble in,interesarse por algo,English
+640,hone,afilar/sharpen,English-blade
+641,prone,boca abajo,English
+642,fraught with,tenso/cargado de/lleno,English
+643,skid,derrapar,English
+644,amble,stroll,leisurely pace
+645,bunion,juanete,b^nion
+646,bland,soso/poco estimulante,English
+647,scrapheap,desguace,basura metal
+648,snug,cozy/close-fitting,English
+649,saggy,flácido,English
+650,dry up,quedarse en blanco/callarse,English
+651,also-ran,segundón/perdedor,English
+652,plank,tablón de mader,English
+653,unenviable,envy,WF
+654,stagger,tambalearse,walk unsteadily
+655,slink,escabullierse,English-slunk-slunk
+656,trudge,caminata/walk heavily,English
+657,trundle,rodar/on wheels,move slowly
+658,strut,pavonearse,walk proudly
+659,loiter,dawdle/holgazanear,lounge
+660,ghastly,horrible/pálido,cadavérico and dreaful
+661,whir,spin noisily,English/insect/helicopter
+662,pamper,mimar,English
+663,outlay,spend/gasto,English
+664,kink,vuelta/manía,torcedura/English
+665,clutch,hold firmly,English
+666,skive,bunk off,English
+667,lush,exhuberante/frondoso,English
+668,chug,drink in large gulps,English
+669,ulna,cúbito and radius,English
+670,unassailable,inexpugnable,English
+671,alimony,pensión alimenticia,comyugal
+672,leer,mirada lasciva,lustful look
+673,seep,filtrarse/leak,also info
+674,derelict,ruinoso/abandonado,English
+675,in preference to,rather than,English
+676,morouse,gloomy/taciturno,lúgubre/malhumorado
+677,bane,ruina/perdición,English
+678,jitter,be nervous,English
+679,chuffed,uk. pleased,English
+680,slate, uk. critisize,English
+681,reams,lots,English
+682,vet,revise,English
+683,slack,suelto/flojo,English
+684,hard-wearing,resistente/duradero,English
+685,gallows,hora,English
+686,naff,UK.slang. tacky,unfashionable/old/English
+687,proselytize,try to attract converts,English
+688,heave,tirar/lanzar/vomitar,heaves:arcadas/retch 
+689,squelch,chapotear,English
+690,gobble,engullir/deborar,English
+691,stray,apartarse/desviarse,English
+692,wraith,espectro/ghost,English
+693,hew,taller/cortar,hewn
+694,fudge,falsear/amañar,1.caramel/confection/slang
+695,stand in good stead,servirle a uno,English
+696,leastways,de todos modos,English/not to mention
+697,scrub,cancelar/suspender,Emglish
+698,sojourn,Estancia/estar temporalmente,English
 699,thicket,mattorral/undergrowth,English
-1399,collar bone,clavícula,breastbone: esternón/English
-1400,underscore,guion bajo,English
-1401,elective,optativa,Subject
-1402,contention,point,English
-1403,jostle,push/shove,Empujar
-1404,dangle,hanging/colgando,English
-1405,taut,tight/firme,English
-1406,pointedly,explícitamente,English
-1407,blight,desgracia/plaga,English
-1408,plight,apuro/prieto,English
-1409,stoop,encorvarse,English
-1410,tart,uk.pejorative,English-zorra
-1411,din,escándalo/estruendo,English
-1412,overwrought,alterado/estresadp,Ro:t
-1413,enmeshed,tangled up/enredado,English
-1414,noose,lazo de horca,English
-1415,yam,batata/boniato,sweet potato
-1416,skittish,asustadiza,English
-1417,impose on sb,abusar/aprovecharse,take advantage
-1418,teeter,totter/wooble,teeter-totter
-1419,prop,lean/support,English/propped up against the wall
-1420,mope,sulk/desanimarse,English
-1421,fluster,aturullado/poner nervioso,English
-1422,mirth,alegría,English
-1423,prep,prepare,English
-1424,mildew,moho/mould,English
-1425,reproach,reproche,English
-1426,slog,effort,English
-1427,jaunt,excursion/trip,outing
-1428,scabies,sarna/escabiosis,English
-1429,endearment,affection,English
-1430,croft,hamlet/village,English
-1431,sow,female pig/sau,sau
-1432,instep,empeine,English
-1433,wimpy,debilucho/tímido,English
-1434,tuck,meter,English
-1435,unrequited,not mutual,un-re-kwaited
-1436,shack,chabola/barraca,English-crude house
-1437,gunk,mugre/pringue,English
-1438,chive,cebolleta,English
-1439,volley of,descarga/lluvia,arrows.English
-1440,in cahoots with, en complot,choots:delicuentes
-1441,fickle,voluble,English
-1442,whack,hit,English
-1443,jinx,gafe/maldicion,English
-1444,haymaker,golpe directo,English
-1445,raucous,ronco/ruidoso,roks
-1446,squeamish,remilgado,English
-1447,trickle,chorrito/goteo,slow stream
-1448,hail from,be from,English
-1449,contrivance,device/artilugio,English
-1450,accrue,acumular,English
-1451,slink,creep up to/move stealthily,English-slunk-slunk
-1452,lackadaisical,distraido/languido,English-student
-1453,bedpan,bacinilla,English
-1454,jumping jack,star jumps,tijera
-1455,stickler (for),insistente/tiquismiquis,English
-1456,bygones,pasado,let bygones be bygones
-1457,lark,alondra/bird,English
-1458,rebus,juego jerogífico,English
-1459,dress down,tell off/admonish,English/reñir
-1460,bamboozle,engañar/desorientar,English
-1461,haberdashery,mercería/notions,haberdasher:mercero
-1462,uptake,absorción,uptake of:use of
-1463,intersperse,intercalar,English
-1464,plushie,stuffed toy/soft toy,cuddly toy
-1465,grotto,secret cave/gruta,Santa's grotto
-1466,tinder,yesca,dry stuff to make fire
-1467,crank,manivela/cigüeñal,alt.cranky
-1468,muzzle,bozal,English
-1469,tinsel,espumillón/oropel,Christmas decoration
-1470,remittance,giro/remesa,English
-1471,impinge on,impactar/infringir,English
-1472,equivocal,ambíguo/equívoco,English
-1473,irrespective of,regardless,English
-1474,rote learning,memorización,English
+700,collar bone,clavícula,breastbone: esternón/English
+701,underscore,guion bajo,English
+702,elective,optativa,Subject
+703,contention,point,English
+704,jostle,push/shove,Empujar
+705,dangle,hanging/colgando,English
+706,taut,tight/firme,English
+707,pointedly,explícitamente,English
+708,blight,desgracia/plaga,English
+709,plight,apuro/prieto,English
+710,stoop,encorvarse,English
+711,tart,uk.pejorative,English-zorra
+712,din,escándalo/estruendo,English
+713,overwrought,alterado/estresadp,Ro:t
+714,enmeshed,tangled up/enredado,English
+715,noose,lazo de horca,English
+716,yam,batata/boniato,sweet potato
+717,skittish,asustadiza,English
+718,impose on sb,abusar/aprovecharse,take advantage
+719,teeter,totter/wooble,teeter-totter
+720,prop,lean/support,English/propped up against the wall
+721,mope,sulk/desanimarse,English
+722,fluster,aturullado/poner nervioso,English
+723,mirth,alegría,English
+724,prep,prepare,English
+725,mildew,moho/mould,English
+726,reproach,reproche,English
+727,slog,effort,English
+728,jaunt,excursion/trip,outing
+729,scabies,sarna/escabiosis,English
+730,endearment,affection,English
+731,croft,hamlet/village,English
+732,sow,female pig/sau,sau
+733,instep,empeine,English
+734,wimpy,debilucho/tímido,English
+735,tuck,meter,English
+736,unrequited,not mutual,un-re-kwaited
+737,shack,chabola/barraca,English-crude house
+738,gunk,mugre/pringue,English
+739,chive,cebolleta,English
+740,volley of,descarga/lluvia,arrows.English
+741,in cahoots with, en complot,choots:delicuentes
+742,fickle,voluble,English
+743,whack,hit,English
+744,jinx,gafe/maldicion,English
+745,haymaker,golpe directo,English
+746,raucous,ronco/ruidoso,roks
+747,squeamish,remilgado,English
+748,trickle,chorrito/goteo,slow stream
+749,hail from,be from,English
+750,contrivance,device/artilugio,English
+751,accrue,acumular,English
+752,slink,creep up to/move stealthily,English-slunk-slunk
+753,lackadaisical,distraido/languido,English-student
+754,bedpan,bacinilla,English
+755,jumping jack,star jumps,tijera
+756,stickler (for),insistente/tiquismiquis,English
+757,bygones,pasado,let bygones be bygones
+758,lark,alondra/bird,English
+759,rebus,juego jerogífico,English
+760,dress down,tell off/admonish,English/reñir
+761,bamboozle,engañar/desorientar,English
+762,haberdashery,mercería/notions,haberdasher:mercero
+763,uptake,absorción,uptake of:use of
+764,intersperse,intercalar,English
+765,plushie,stuffed toy/soft toy,cuddly toy
+766,grotto,secret cave/gruta,Santa's grotto
+767,tinder,yesca,dry stuff to make fire
+768,crank,manivela/cigüeñal,alt.cranky
+769,muzzle,bozal,English
+770,tinsel,espumillón/oropel,Christmas decoration
+771,remittance,giro/remesa,English
+772,impinge on,impactar/infringir,English
+773,equivocal,ambíguo/equívoco,English
+774,irrespective of,regardless,English
+775,rote learning,memorización,English
 776,felt,fieltro,sheet of felt
-1553,baldly,bluntly/directly,English-bald:llano/simple
-1554,plaintiff,demandante,English
-1555,well-to-do,acomodada,well-to-do neighbourhood
-1556,well-nigh,almost,English
-1557,banister,handrail,English
-1558,foolhardy,reckless,English
-1559,chicanery,trickery,Artimañas
-1560,blurb,publicidad en la tapa,libro
-1561,sleet,aguanieve,Granizo US
-1562,perspicuous,perspicuo,clear in meaning
-1563,rickety,desvencijado/tambaleante,English
-1564,rut,surco/rollo,stuck in a rut: rutina/the rut: celo
-1565,ominous,ominoso/bad sign,threatening
-1566,windfall,unexpected money,English
-1567,undertow,resaca marina/2.poso,implicit quality that leaves a feeling
-1568,porpoise,marsopa,kind of dolphin
-1569,ashen,very pale,English
-1570,destitute,very poor/indigente,English
-1571,keen,very sharp/afilado,English
-1572,chap,agrietar,lips/sking
-1573,chatterbox,very talktative,English
-1574,tepid,tibio/lukewarm,English
-1575,dearth,lack/escasez,English
-1576,surfeit,surplus/abundacia,English
-1577,brood,camada,English
-1578,nettle,ortiga/irritar,English/stinging plant
-1579,indispensable,imprescindible,essential
-1580,hearten,animar,heartened
-1581,nougat,turrón,nuga/'nugat
-1582,sieve,colador fino,/siv/ to have a mind/memory like a sieve
-1583,teetotal,adj. abstemio,teetotaller
-1584,queasy,mareado/indispuesto,sick
-1585,inconsequential,intrascendente,English
-1586,nab,atrapar/mangar,slang
-1587,mellifluous,melifluo/smooth,honey
-1588,prod,poke/empuje/codazo,English
-1589,hobnob,rub shoulders,Codearse
-1590,partridge,perdiz,Game bird
-1591,percolates,filtrase,percolates up/down
-1592,tenable,sostenible/mantenible,op. untenable
-1593,frond,hoja de palma/helecho,fern leaf
-1594,bereft,despojado/desprovisto,devoid of/deprived of
-1595,drudge,esclavo,sb who does menial work
-1596,horse around,hacer barullo/tonterías,clown around
-1597,bib,babero,English
-1598,snarl,gruñir,English- get snarled up in traffic: get stuck
-1599,intuit,intuir,English
-1600,scurry,scamper/apresurarse,English
-1601,huddle up,acurrucarse/apretarse,gather
-1602,trove,tesoro escondido,English
-1603,guile,artimaña,beguile:embaucar
-1604,hubris,orgullo desmedido,hiubris
-1605,smear,untar,English
-1606,take issue,disagree,English
-1607,take exception to,get offended,English
-1608,boon,beneficio,English
-1609,spree,juerga,English
-1610,heft,peso/bulk,English
-1611,extraneous,supérfluo,English
-1612,chump,bobalicón,English
-1613,wrangle,pelear por,discutir-English
-1614,nix,prohibir/rechazar,ban/turn down-flights nixed
-1615,barley,cebada,English
-1616,fib,white-small lie/mentirijilla,English
-1617,swivel,pivotar/girar,English
-1618,shibboleth,dogma anticuado,English
-1619,foist,imponer,impose
-1620,jut out,sobresalir/stick out,English
-1621,dunce,zoquete/burro,d^ns
-1622,rapt,adj. cautivado/embelasado,a rapt listener
-1623,prissy,remilgado/puritano,English
-1624,whinge,whine/complain,English
-1625,bog down,empatanar/dificultar,English
-1626,accrue,devengar,English
-1627,waiver,exención/dispensa de pago,English
-1628,goldfinch,jilguero,English
-1629,broach,bring up,English
-1630,haggard,demacrado,English
-1631,frazzle,cansar/agotar,English
-1633,dudgeon,ira,English
-1634,outline,esquema,English
-1635,fluff,relleno/pelusa,English-extra
-1636,commonality,cosa en común,shared feature
-1637,scuttle,plan-echar por tierra/run fast,English
-1638,ancillary,secundario,English
-1639,tenure,antiguedad/experiencia,English
-1640,assuage,allay/aliviar/mitigar,asweich
-1641,slag,escoria/fulana,English
-1642,morsel,bocado,English
-1643,tuft,mechón,fluffy clump
-1644,thrum,rasgar/tamborilear,make a rhytmic sound
-1645,yew tree,tejo,evergreen tree
-1646,cottage industry,industria artesanal,English
-1647,riled up,como loco/angry,English
-1648,saunter,leisurely walk,English
-1649,snivel,lloriquear,English
-1650,nonage,minoría de edad,Unmündigkeit
-1651,urchin,erizo de mar,"3:tchin-rascal, pillo"
-1652,rust,óxido,noun
-877,shingle,teja/guijarro/piece,English
-1754,sapling,retoño,young tree
-1755,rustling,"sonido crujiente, susurro",leaves
-1756,nicker,relinchar,horse
-1757,knackered,uk. hecho polvo,slang
-1758,gutted,uk. destrozado,abatido
-1759,brooding,pensativo,English
-1760,spar,discutir,English
-1761,deadpan,impávido/straight face,English
-1762,smut,grosería/indecencia,English
-1763,parched,very dry/sediento,English
-1764,squalid,very dirty,English
-1765,gaunt,very thin,cadavérico
-1766,cutthroat,despiadado,ruthless
-1767,renege on sth,incumplir,promesa
-1768,mandarin neck,cuello mao,a
-1769,cob,corncob-mazorca,maíz
-1770,quarry,cantera,English
-1771,twitch,tic/retorcerse,English
-1772,echelon,escalón/nivel,Eshelon
-1773,custard,natilla,English
-1774,hubris,excessive pride,Greek term of excessive pride that causes downfall
-1775,uncouth,basto/zafio,English
-1776,swaddle,wrap up tightly/envolver,English
-1777,opprobium,oprobio/desgracia,English
-1778,strike out,independizarse,Strike out on his own/Destetar
-1779,pluck up the courage,armarse de valor,English
-1780,priggish,mojigato/puritano,English
-1781,stub,resguardo/talón de recibo,small artcile
-1782,cut-off mark/grade,nota de corte,English
-1783,to temper,ser trabajador temporal,I'm tempering
-1784,woo,attract/lure,English
-1785,thrush,mirlo/tordo,English
-1786,riveting,fascinating,English
-1787,suction pad,ventosa,English
-1788,sludge,lodo/barro,snow+mud
-1789,wad,pile/fajo de billetes,English
-1790,scowl,angry frown,English
-1791,hobble,walk ith a limp,walking
-1792,proceeds,ganancias/frutos,English
-1793,stint,periodo/temporada,English
-1794,shanty town,barrio de chabolas,shack
-1795,clique,hermandad/exclusive group,English
-1796,odometer,milometer=/cuentaquilómetros,English
-1797,gushy,fusivo,English
-1798,gooey,empalagosa/pegajosa,English
-1799,grate,rechinar/chirriar,it grates on the ear
-1800,graze,pastar/scrape/rozar,cows graze
-1801,jangle,tintineo,"metallic sound, keys coins"
-1802,glean,averiguar/cosechar,English
-1803,muddle,confundir/hacer lio,English
-1804,lunge,arremeter/embestir,English
-1805,yob,rascal,English
-1806,thyme,tomillo,English/[taim]
-1807,tad,poco,small amount
-1808,scrap(plan),desestimar,English
-1809,awash,inundado/lleno,English
-1810,muse,think about/consider,English
-1811,fluke,suerte/chiripa,English
-1812,aegis,amparo/tutela,i:llis
-1813,fallow,barbecho/sin actividad,English
-1814,hold sway,dominar,English
-1815,bassoon,fagot,English
-1816,sear,burn|scorch,English
-1817,lob,lanzar alto con arco,English
-1818,suppleness,Flexibilidad,English
-1819,hopscotch,juego,colegio
-1820,grapple,luchar/forcejear,English
-1821,ombudsman,defensor del pueblo,Eng
-1822,licorice,regaliz,English
-1823,inveterate,compulsive,English
-1824,gout,gota,gaut
-1825,well up,emocionarse,English
-1826,sweltering hot,scorching,e
-1827,buck a deal,Reject,e
-1828,steeple,torre iglesia,puntiaguda
-1829,dredge up,sacar a la luz,E
-1830,NDA,non-disclosure a.,agreement
-1831,plead with,beg/beseech,Eng
-1832,flounder,lenguado/struggle,English
-1833,galore,abundancia,English
-1834,dandruff,flaky scalp/caspa,English
-1835,scurf,caspa/scurfy,English
-1836,watershed,turning point,English
-1837,feckless,inútil/irresponable,English
-1838,foible,manía/pto. débil,English
-1839,goad,provocar/incitar,English
-1840,extol,alabar,English
-1841,mahogany,caoba,English
-1842,putter,potter/matar tiempo,Engish
-1843,vaulting box,potro,vauult
-1844,newt,tritón,English
-1845,barter,negociar/trueque,Canjear/English
-1846,fleece,lana/desplumar,English
-1847,chevron,galón,English
-1848,onus,duty/burden,English
-1849,heirloom,reliquia familiar,English
-1850,plaid,a cuadros,plad
-1851,libel,difamación,ENGLISH
-1852,stow,guardar,English
-1853,abreast,de lado a lado,keep abreast/estar al corriente
-1854,disparaging,ofensivo,hablar mal de
-1855,gander,ganso/vistazo,English
-1856,scourge,azote/mal,English
-1857,assay,assessment,English
-1858,shrapnel,metralla,English
-983,snag,drawback,English
-1966,bleachers,on the stand,gradasi
-1967,hilt,empuñadura,handle.sword
-1968,pansy,a wuss,blandengue
-1969,pen,corral,English
-1970,starling,estornino,English
-1971,dud,porquería/fiasco,English
-1972,boat neck, cuello barco,English
-1973,strapless,palabra de honor,English
-1974,rowdy,alboratados,teens/kids
-1975,float,carroza desfile,English
-1976,raving,delirio,English
-1977,tassel,borla,English
-1978,miser,stingy,ungenerous
-1979,brocade,brocado,English
-1980,gumption,coraje,English
-1981,stringent,rigurous,English
-1982,rugged,resistente/robusto,English
-1983,bough,rama,bau
-1984,waiver,exencion de pago,English
-1985,glib,fácil/superficial,English
-1986,cogent,convincing,English
-1987,nonchalant,despreocupad,English
-1988,blithe,despreocupado,happy
-1989,snub,disrespect,English
-1990,gait,paso/andares,English
-1991,musty,que huele a humedad,English
-1992,bugle,corneta,English
-1993,mut,mongrel/mestizo,Palleiro
-1994,tubby,panzón,English
-1995,scruffle,pelea/disputa,English
-1996,chunter,decir entre dientes,English
-1997,pillory,ridiculizar,English
-1998,bramble,zarza,English
-1999,foreboding,premonición,English
-2000,stalemate,empate/p.muerto,English
-2001,alacrity,celeridad/entusiasmo,English
-2002,besmirch,mancillar,English
-2003,spout,boquilla/pitorro,English
-2004,culvert,alcantarilla tubo,ca
-2005,egregious,ofensivo,remarks
-2006,jolt,sacudida,shock
-2007,pack in,give up,English
-2008,daub,untar en,Spread
-2009,downtrodden,oprimodo/pisoteado,English
-2010,a tall order,challenge,English
-2011,keep tabs on,monitor,English
-2012,averse to,reacio/contrario,English
-2013,belie,oculta/falsa impresión,English
-2014,dishevelled,desaliñado,unkempt/sh
-2015,dill,eneldo,English
-2016,ullage,merma/tanque,English
-2017,rhinestone,pedrería,English
-2018,berth,bunk bed,atraque
-2019,get wind of,hear a rumour,English
-2020,blustery,ventoso,tempestoso
-2021,singe,chamuscar bordes,English
-2022,cop out,escurrir el bulto,English
-2023,stack up,compare,English
-2024,sift,colar/filtrar,"arena,etc"
-2025,fawn,baby deer,cervatillo
-2026,conflate,mezclar,trevor
-2027,coddle,pamper,mimar
-2028,ivy,hiedra,English
-2029,wren,chocín,bird
-2030,gawk,gawp/gape,Stare
-2031,miffed,angry,English
-2032,run the gamut,por todo el rango,gamut:escala
-2033,maven,experto,us
-2034,wax and wane,da altos y bajos,inglés
-2035,standoffish,distante/engreido,ingles
-2036,cheek by jowl,very closely together,English
-2037,jowl,carrillo/papada,jaul - English
-2038,regale,entertain,Englishgeil
-2039,puny,exiguo/diminuto,English
-2040,hoe,azada/sachar,"hoes,hose"
-2041,handcuffs,restraints,English
-2042,trowel,paleta,traul/small spade
-2043,askance,con recelo/de reojo,English
-2044,inning,vuelta/oportunidad,E
-2045,pointblank,a quemarropa/blunt,English
-2046,piecemeal,fragmemetado,por partes
-2047,graft,injertar,plants
-2048,heron,garza,long-legged wading bird
-2049,aghast,espantado,English shocked
-2050,do for,acabar con/kill,"English, smoking will do for him"
-2051,thrum,aleteo/cuerdas,helicopter
-2052,sluice,esclusa,water gate
-2053,taint,perineo,English
-2054,clunky,torpe/cumbersome,English
-2055,shrew,harpía/musaraña,English
-2056,lofty,elevado/tono pedante,English
-2057,conspicuous,claro/notable,noticeable
-2058,fringe,flequillo,English
-2059,lathe,torno,English
-2060,coast,vaguear/pasar,pasar por lo mínimo
-2061,avowedly,públicamente,abiertamente
-2062,keel over,dar un patatús,English
-2063,gaudy,chillón,color
-2064,estranged,separado,English
-2065,fritter,spend idle time,English
-2066,sconce,candelero,English
-2067,ilk,índole/tipo,English
-2068,brawny,musculoso/fornido,English
-2069,rev up,acelerar/girar,English
-2070,hovel,casucha,English
-2071,hem and haw,titubeando,English
-2072,huddle up, acurrucarse,English
-2073,disgruntled,contrariado,English
-2074,clout,fame&influence,power/English
-2075,edgewise,sideways,English
-2076,runt,enano,the runt in the litter
-2077,lopsided,desequilibrado,English
-2078,loaf,vaguear,English
-2079,collywobbles,escalofrios,English
-2080,swig,trago largo,gulp
-2081,smother,asfixiar,English
-2082,on the double,fast,military
-2083,unfettered,not shackled,un-fettered
-2084,slum,bajón/caída,English
-2085,mooch,deambular/gorronear,English
-2086,muck around,trastear,fiddle with
-2087,cantankerous,cascarrabias,English
-2088,tap out,give up,English
-2089,flag,flaquear,English
-2090,totter,tambalearse,English
-2091,lend credence,parece confirmar,English
-2092,zinger,salida cómica,English
-2093,testy,irritable,English
-2094,snide,sarcástico,English
-2095,fret,worry/be upset,English
-2096,lumber,walk heavily,plod
-2097,twine,cordel/entrelazar,intertwine
-2098,grifter,swindler,estafador
-2099,scrunch,apretujado,crujir
-2100,brash,descarado/atrevido,English
-2101,pleather,cuero artificial,English
-2102,ewe,female sheep,cordera
-2103,slump,desplomado/desparramado,English
-2104,scourer,estropajo,scour
-2105,protracted,prolongued,extended time
-2106,tanner,curtidor,leather manufacturer
-2107,garrison,guarnecer/acuartelar,English
-2108,sliver,astilla,English
-2109,jet,azabache,English
-2110,scrawl,scribble,"doodle, garabatearEnglish"
-2111,slouch,encobarse,English
-2112,chime in,meter baza,enter a discussion
-2113,abet,incitar/inducir,ser cómplice de/English
-2114,frisk,searched by police,English
-2115,gaslight,luz de gas,English
-2116,bedlam,caos/manicomio,English
-2117,belly flop,planchazo,English
-2118,half light,dim light at dusk,or dawn
-2119,cinch,pan comido,it's a cinch
-2120,hoard,hacer acopio,masks
-2121,hoar,hoarfrost/escarcha,English
-2122,waft,flotar/vaporoso,smell/draught
-2123,chime,sonar,English
-2124,scoff,burlarse/menosprecio,English
-2125,shingles,herpes zoster,English
-2126,bungle,hacer una chapuza,incompetecia
-2127,bile,bilis,digestive juice
-2128,niggle,complaint,English
-2129,wheeze,resollar,breathe with difficulty
-2130,sash,banda,miss universe
-2131,offal,vísceras,English
-2132,scout,explorar,scouting
-2133,tuber,tubérculo,English
-2134,grouchy,gruñón,grumpy
-2135,wash up,traido marea,English
-2136,reefer smoker,weed,English
-2137,sheer,transparent/liso,English
-2138,wisp,mechón/hilo,English
-2139,peat,turba fuego,English
-2140,specious, especioso,spi-shs/plausible pero falso
-2141,hobble,walk with limp,English
-2142,caulk,sellador,/ko:k/
-2143,cloy,empalagar,English
-2144,snippy,cortante/atttiude,English
-2145,attest,testicar,English
-2146,slash,rajar,English
-2147,tote,carry/bag,English
-2148,stubble,2daybeard,English
-2149,quip,salida/witty remark,English
-2150,airbrushed,photoshopped,English
-2151,unabashedly,libre/sin temor,without worrying about criticism
-2152,rout,derrota contundente,English
-2153,sprawling,en extensión/creciente,English
-2154,flimsy,endeble,English
-2155,debauchery,libertinaje/desenfreno,English!
-2156,daze,aturdir,English
-2157,besotted,coladito por,infatuated
-2158,doleful,triste,sorrowful
-2159,harangue,sermonear,rant;arengar
-2160,dour,melancólico,"gloomy,sullen"
-2161,dupe,engañar,deceive
-2162,officious,entrometido,meddling
-2163,scrumptious,delocioso,English
-2164,chit,un vale,English/ficha
-2165,clampdown,medias drasticas,English
-2166,dastardly,evil/malévolo,English
-2167,caper,travesura/aventura,English
-2168,vig,vigorish/comisión,English
-2169,hickey,lovebite,English
-2170,piecemeal,gradualmente/fragmentado,English
-2171,suds,pompas jabón,English
-2172,addled,confundido/aturdido,English
-2173,buxom,rechoncho,Plump
-2174,furtherance,fomento/promoción,English
-2175,outstanding,pendiente,por pagar
-2176,flustured,aturullado,English
-2177,auspicious,favorable/próspero,English
-2178,retributivism,retribucionismo,English
+777,baldly,bluntly/directly,English-bald:llano/simple
+778,plaintiff,demandante,English
+779,well-to-do,acomodada,well-to-do neighbourhood
+780,well-nigh,almost,English
+781,banister,handrail,English
+782,foolhardy,reckless,English
+783,chicanery,trickery,Artimañas
+784,blurb,publicidad en la tapa,libro
+785,sleet,aguanieve,Granizo US
+786,perspicuous,perspicuo,clear in meaning
+787,rickety,desvencijado/tambaleante,English
+788,rut,surco/rollo,stuck in a rut: rutina/the rut: celo
+789,ominous,ominoso/bad sign,threatening
+790,windfall,unexpected money,English
+791,undertow,resaca marina/2.poso,implicit quality that leaves a feeling
+792,porpoise,marsopa,kind of dolphin
+793,ashen,very pale,English
+794,destitute,very poor/indigente,English
+795,keen,very sharp/afilado,English
+796,chap,agrietar,lips/sking
+797,chatterbox,very talktative,English
+798,tepid,tibio/lukewarm,English
+799,dearth,lack/escasez,English
+800,surfeit,surplus/abundacia,English
+801,brood,camada,English
+802,nettle,ortiga/irritar,English/stinging plant
+803,indispensable,imprescindible,essential
+804,hearten,animar,heartened
+805,nougat,turrón,nuga/'nugat
+806,sieve,colador fino,/siv/ to have a mind/memory like a sieve
+807,teetotal,adj. abstemio,teetotaller
+808,queasy,mareado/indispuesto,sick
+809,inconsequential,intrascendente,English
+810,nab,atrapar/mangar,slang
+811,mellifluous,melifluo/smooth,honey
+812,prod,poke/empuje/codazo,English
+813,hobnob,rub shoulders,Codearse
+814,partridge,perdiz,Game bird
+815,percolates,filtrase,percolates up/down
+816,tenable,sostenible/mantenible,op. untenable
+817,frond,hoja de palma/helecho,fern leaf
+818,bereft,despojado/desprovisto,devoid of/deprived of
+819,drudge,esclavo,sb who does menial work
+820,horse around,hacer barullo/tonterías,clown around
+821,bib,babero,English
+822,snarl,gruñir,English- get snarled up in traffic: get stuck
+823,intuit,intuir,English
+824,scurry,scamper/apresurarse,English
+825,huddle up,acurrucarse/apretarse,gather
+826,trove,tesoro escondido,English
+827,guile,artimaña,beguile:embaucar
+828,hubris,orgullo desmedido,hiubris
+829,smear,untar,English
+830,take issue,disagree,English
+831,take exception to,get offended,English
+832,boon,beneficio,English
+833,spree,juerga,English
+834,heft,peso/bulk,English
+835,extraneous,supérfluo,English
+836,chump,bobalicón,English
+837,wrangle,pelear por,discutir-English
+838,nix,prohibir/rechazar,ban/turn down-flights nixed
+839,barley,cebada,English
+840,fib,white-small lie/mentirijilla,English
+841,swivel,pivotar/girar,English
+842,shibboleth,dogma anticuado,English
+843,foist,imponer,impose
+844,jut out,sobresalir/stick out,English
+845,dunce,zoquete/burro,d^ns
+846,rapt,adj. cautivado/embelasado,a rapt listener
+847,prissy,remilgado/puritano,English
+848,whinge,whine/complain,English
+849,bog down,empatanar/dificultar,English
+850,accrue,devengar,English
+851,waiver,exención/dispensa de pago,English
+852,goldfinch,jilguero,English
+853,broach,bring up,English
+854,haggard,demacrado,English
+855,frazzle,cansar/agotar,English
+856,dudgeon,ira,English
+857,outline,esquema,English
+858,fluff,relleno/pelusa,English-extra
+859,commonality,cosa en común,shared feature
+860,scuttle,plan-echar por tierra/run fast,English
+861,ancillary,secundario,English
+862,tenure,antiguedad/experiencia,English
+863,assuage,allay/aliviar/mitigar,asweich
+864,slag,escoria/fulana,English
+865,morsel,bocado,English
+866,tuft,mechón,fluffy clump
+867,thrum,rasgar/tamborilear,make a rhytmic sound
+868,yew tree,tejo,evergreen tree
+869,cottage industry,industria artesanal,English
+870,riled up,como loco/angry,English
+871,saunter,leisurely walk,English
+872,snivel,lloriquear,English
+873,nonage,minoría de edad,Unmündigkeit
+874,urchin,erizo de mar,"3:tchin-rascal, pillo"
+875,rust,óxido,noun
+876,shingle,teja/guijarro/piece,English
+877,sapling,retoño,young tree
+878,rustling,"sonido crujiente, susurro",leaves
+879,nicker,relinchar,horse
+880,knackered,uk. hecho polvo,slang
+881,gutted,uk. destrozado,abatido
+882,brooding,pensativo,English
+883,spar,discutir,English
+884,deadpan,impávido/straight face,English
+885,smut,grosería/indecencia,English
+886,parched,very dry/sediento,English
+887,squalid,very dirty,English
+888,gaunt,very thin,cadavérico
+889,cutthroat,despiadado,ruthless
+890,renege on ,incumplir,promesa/sth
+891,mandarin neck,cuello mao,a
+892,cob,corncob-mazorca,maíz
+893,quarry,cantera,English
+894,twitch,tic/retorcerse,English
+895,echelon,escalón/nivel,Eshelon
+896,custard,natilla,English
+897,hubris,excessive pride,Greek term of excessive pride that causes downfall
+898,uncouth,basto/zafio,English
+899,swaddle,wrap up tightly/envolver,English
+900,opprobium,oprobio/desgracia,English
+901,strike out,independizarse,Strike out on his own/Destetar
+902,pluck up the courage,armarse de valor,English
+903,priggish,mojigato/puritano,English
+904,stub,resguardo/talón de recibo,small artcile
+905,cut-off mark,nota de corte,English/grade
+906,to temper,ser trabajador temporal,I'm tempering
+907,woo,attract/lure,English
+908,thrush,mirlo/tordo,English
+909,riveting,fascinating,English
+910,suction pad,ventosa,English
+911,sludge,lodo/barro,snow+mud
+912,wad,pile/fajo de billetes,English
+913,scowl,angry frown,English
+914,hobble,walk ith a limp,walking
+915,proceeds,ganancias/frutos,English
+916,stint,periodo/temporada,English
+917,shanty town,barrio de chabolas,shack
+918,clique,hermandad/exclusive group,English
+919,odometer,milometer=/cuentaquilómetros,English
+920,gushy,fusivo,English
+921,gooey,empalagosa/pegajosa,English
+922,grate,rechinar/chirriar,it grates on the ear
+923,graze,pastar/scrape/rozar,cows graze
+924,jangle,tintineo,"metallic sound, keys coins"
+925,glean,averiguar/cosechar,English
+926,muddle,confundir/hacer lio,English
+927,lunge,arremeter/embestir,English
+928,yob,rascal,English
+929,thyme,tomillo,English/[taim]
+930,tad,poco,small amount
+931,scrap ,desestimar,eg. a plan
+932,awash,inundado/lleno,English
+933,muse,think about/consider,English
+934,fluke,suerte/chiripa,English
+935,aegis,amparo/tutela,i:llis
+936,fallow,barbecho/sin actividad,English
+937,hold sway,dominar,English
+938,bassoon,fagot,English
+939,sear,burn|scorch,English
+940,lob,lanzar alto con arco,English
+941,suppleness,Flexibilidad,English
+942,hopscotch,juego,colegio
+943,grapple,luchar/forcejear,English
+944,ombudsman,defensor del pueblo,Eng
+945,licorice,regaliz,English
+946,inveterate,compulsive,English
+947,gout,gota,gaut
+948,well up,emocionarse,English
+949,sweltering hot,scorching,scorhing hot
+950,buck a deal,Reject,turn down
+951,steeple,torre iglesia,puntiaguda
+952,dredge up,sacar a la luz,English
+953,NDA,non-disclosure a.,agreement
+954,plead with,beg/beseech,Eng
+955,flounder,lenguado/struggle,English
+956,galore,abundancia,English
+957,dandruff,flaky scalp/caspa,English
+958,scurf,caspa/scurfy,English
+959,watershed,turning point,English
+960,feckless,inútil/irresponable,English
+961,foible,manía/pto. débil,English
+962,goad,provocar/incitar,English
+963,extol,alabar,English
+964,mahogany,caoba,English
+965,putter,potter/matar tiempo,Engish
+966,vaulting box,potro,vauult
+967,newt,tritón,English
+968,barter,negociar/trueque,Canjear/English
+969,fleece,lana/desplumar,English
+970,chevron,galón,English
+971,onus,duty/burden,English
+972,heirloom,reliquia familiar,English
+973,plaid,a cuadros,plad
+974,libel,difamación,ENGLISH
+975,stow,guardar,English
+976,abreast,de lado a lado,keep abreast/estar al corriente
+977,disparaging,ofensivo,hablar mal de
+978,gander,ganso/vistazo,English
+979,scourge,azote/mal,English
+980,assay,assessment,English
+981,shrapnel,metralla,English
+982,snag,drawback,English
+983,bleachers,on the stand,gradasi
+984,hilt,empuñadura,handle.sword
+985,pansy,a wuss,blandengue
+986,pen,corral,English
+987,starling,estornino,English
+988,dud,porquería/fiasco,English
+989,boat neck, cuello barco,English
+990,strapless,palabra de honor,English
+991,rowdy,alboratados,teens/kids
+992,float,carroza desfile,English
+993,raving,delirio,English
+994,tassel,borla,English
+995,miser,stingy,ungenerous
+996,brocade,brocado,English
+997,gumption,coraje,English
+998,stringent,rigurous,English
+999,rugged,resistente/robusto,English
+1000,bough,rama,bau
+1001,waiver,exencion de pago,English
+1002,glib,fácil/superficial,English
+1003,cogent,convincing,English
+1004,nonchalant,despreocupad,English
+1005,blithe,despreocupado,happy
+1006,snub,disrespect,English
+1007,gait,paso/andares,English
+1008,musty,que huele a humedad,English
+1009,bugle,corneta,English
+1010,mut,mongrel/mestizo,Palleiro
+1011,tubby,panzón,English
+1012,scruffle,pelea/disputa,English
+1013,chunter,decir entre dientes,English
+1014,pillory,ridiculizar,English
+1015,bramble,zarza,English
+1016,foreboding,premonición,English
+1017,stalemate,empate/p.muerto,English
+1018,alacrity,celeridad/entusiasmo,English
+1019,besmirch,mancillar,English
+1020,spout,boquilla/pitorro,English
+1021,culvert,alcantarilla tubo,ca
+1022,egregious,ofensivo,remarks
+1023,jolt,sacudida,shock
+1024,pack in,give up,English
+1025,daub,untar en,Spread
+1026,downtrodden,oprimodo/pisoteado,English
+1027,a tall order,challenge,English
+1028,keep tabs on,monitor,English
+1029,averse to,reacio/contrario,English
+1030,belie,oculta/falsa impresión,English
+1031,dishevelled,desaliñado,unkempt/sh
+1032,dill,eneldo,English
+1033,ullage,merma/tanque,English
+1034,rhinestone,pedrería,English
+1035,berth,bunk bed,atraque
+1036,get wind of,hear a rumour,English
+1037,blustery,ventoso,tempestoso
+1038,singe,chamuscar bordes,English
+1039,cop out,escurrir el bulto,English
+1040,stack up,compare,English
+1041,sift,colar/filtrar,"arena,etc"
+1042,fawn,baby deer,cervatillo
+1043,conflate,mezclar,trevor
+1044,coddle,pamper,mimar
+1045,ivy,hiedra,English
+1046,wren,chocín,bird
+1047,gawk,gawp/gape,Stare
+1048,miffed,angry,English
+1049,run the gamut,por todo el rango,gamut:escala
+1050,maven,experto,us
+1051,wax and wane,da altos y bajos,inglés
+1052,standoffish,distante/engreido,ingles
+1053,cheek by jowl,very closely together,English
+1054,jowl,carrillo/papada,jaul - English
+1055,regale,entertain,Englishgeil
+1056,puny,exiguo/diminuto,English
+1057,hoe,azada/sachar,"hoes,hose"
+1058,handcuffs,restraints,English
+1059,trowel,paleta,traul/small spade
+1060,askance,con recelo/de reojo,English
+1061,inning,vuelta/oportunidad,E
+1062,pointblank,a quemarropa/blunt,English
+1063,piecemeal,fragmemetado,por partes
+1064,graft,injertar,plants
+1065,heron,garza,long-legged wading bird
+1066,aghast,espantado,English shocked
+1067,do for,acabar con/kill,"English, smoking will do for him"
+1068,thrum,aleteo/cuerdas,helicopter
+1069,sluice,esclusa,water gate
+1070,taint,perineo,English
+1071,clunky,torpe/cumbersome,English
+1072,shrew,harpía/musaraña,English
+1073,lofty,elevado/tono pedante,English
+1074,conspicuous,claro/notable,noticeable
+1075,fringe,flequillo,English
+1076,lathe,torno,English
+1077,coast,vaguear/pasar,pasar por lo mínimo
+1078,avowedly,públicamente,abiertamente
+1079,keel over,dar un patatús,English
+1080,gaudy,chillón,color
+1081,estranged,separado,English
+1082,fritter,spend idle time,English
+1083,sconce,candelero,English
+1084,ilk,índole/tipo,English
+1085,brawny,musculoso/fornido,English
+1086,rev up,acelerar/girar,English
+1087,hovel,casucha,English
+1088,hem and haw,titubeando,English
+1089,huddle up,acurrucarse,English
+1090,disgruntled,contrariado,English
+1091,clout,fame&influence,power/English
+1092,edgewise,sideways,English
+1093,runt,enano,the runt in the litter
+1094,lopsided,desequilibrado,English
+1095,loaf,vaguear,English
+1096,collywobbles,escalofrios,English
+1097,swig,trago largo,gulp
+1098,smother,asfixiar,English
+1099,on the double,fast,military
+1100,unfettered,not shackled,un-fettered
+1101,slum,bajón/caída,English
+1102,mooch,deambular/gorronear,English
+1103,muck around,trastear,fiddle with
+1104,cantankerous,cascarrabias,English
+1105,tap out,give up,English
+1106,flag,flaquear,English
+1107,totter,tambalearse,English
+1108,lend credence,parece confirmar,English
+1109,zinger,salida cómica,English
+1110,testy,irritable,English
+1111,snide,sarcástico,English
+1112,fret,worry/be upset,English
+1113,lumber,walk heavily,plod
+1114,twine,cordel/entrelazar,intertwine
+1115,grifter,swindler,estafador
+1116,scrunch,apretujado,crujir
+1117,brash,descarado/atrevido,English
+1118,pleather,cuero artificial,English
+1119,ewe,female sheep,cordera
+1120,slump,desplomado/desparramado,English
+1121,scourer,estropajo,scour
+1122,protracted,prolongued,extended time
+1123,tanner,curtidor,leather manufacturer
+1124,garrison,guarnecer/acuartelar,English
+1125,sliver,astilla,English
+1126,jet,azabache,English
+1127,scrawl,scribble,"doodle, garabatearEnglish"
+1128,slouch,encobarse,English
+1129,chime in,meter baza,enter a discussion
+1130,abet,incitar/inducir,ser cómplice de/English
+1131,frisk,searched by police,English
+1132,gaslight,luz de gas,English
+1133,bedlam,caos/manicomio,English
+1134,belly flop,planchazo,English
+1135,half light,dim light at dusk,or dawn
+1136,cinch,pan comido,it's a cinch
+1137,hoard,hacer acopio,masks
+1138,hoar,hoarfrost/escarcha,English
+1139,waft,flotar/vaporoso,smell/draught
+1140,chime,sonar,English
+1141,scoff,burlarse/menosprecio,English
+1142,shingles,herpes zoster,English
+1143,bungle,hacer una chapuza,incompetecia
+1144,bile,bilis,digestive juice
+1145,niggle,complaint,English
+1146,wheeze,resollar,breathe with difficulty
+1147,sash,banda,miss universe
+1148,offal,vísceras,English
+1149,scout,explorar,scouting
+1150,tuber,tubérculo,English
+1151,grouchy,gruñón,grumpy
+1152,wash up,traido marea,English
+1153,reefer smoker,weed,English
+1154,sheer,transparent/liso,English
+1155,wisp,mechón/hilo,English
+1156,peat,turba fuego,English
+1157,specious, especioso,spi-shs/plausible pero falso
+1158,hobble,walk with limp,English
+1159,caulk,sellador,/ko:k/
+1160,cloy,empalagar,English
+1161,snippy,cortante/atttiude,English
+1162,attest,testicar,English
+1163,slash,rajar,English
+1164,tote,carry/bag,English
+1165,stubble,2daybeard,English
+1166,quip,salida/witty remark,English
+1167,airbrushed,photoshopped,English
+1168,unabashedly,libre/sin temor,without worrying about criticism
+1169,rout,derrota contundente,English
+1170,sprawling,en extensión/creciente,English
+1171,flimsy,endeble,English
+1172,debauchery,libertinaje/desenfreno,English!
+1173,daze,aturdir,English
+1174,besotted,coladito por,infatuated
+1175,doleful,triste,sorrowful
+1176,harangue,sermonear,rant;arengar
+1177,dour,melancólico,"gloomy,sullen"
+1178,dupe,engañar,deceive
+1179,officious,entrometido,meddling
+1180,scrumptious,delocioso,English
+1181,chit,un vale,English/ficha
+1182,clampdown,medias drasticas,English
+1183,dastardly,evil/malévolo,English
+1184,caper,travesura/aventura,English
+1185,vig,vigorish/comisión,English
+1186,hickey,lovebite,English
+1187,piecemeal,gradualmente/fragmentado,English
+1188,suds,pompas jabón,English
+1189,addled,confundido/aturdido,English
+1190,buxom,rechoncho,Plump
+1191,furtherance,fomento/promoción,English
+1192,outstanding,pendiente,por pagar
+1193,flustured,aturullado,English
+1194,auspicious,favorable/próspero,English
+1195,retributivism,retribucionismo,English
 1196,ore,mena/mineral,English
 1197,cuss out,maldecir,English
 1198,ply,capa,2ply tissue
@@ -1237,7 +1237,7 @@ ID,WORD,TRANSLATION,COMMENT
 1236,escrow,depositar,fideicomiso
 1237,growth spurt,estirón,English
 1238,porthole,Claraboya,English
-1238,upcycle,repurpose,English
+1239,upcycle,repurpose,English
 1240,slag,desecho/uk fulana,English
 1241,swat,aplastar/pegar,"bee, al suelo etc"
 1242,zest,cáscara/placer,English
@@ -1267,8 +1267,8 @@ ID,WORD,TRANSLATION,COMMENT
 1266,hare to,rush/hurry,English
 1267,ham,guasón/sobreactuado,English
 1268,staple,the important part,English
-1268,staple,the important part,English
-1270,hoar/hoarfrost,escarcha,English
+1269,staple,the important part,English
+1270,hoarfrost,escarcha,hoar
 1271,carat,quilate,English
 1272,chute,conducto/rampa/salto agua,English
 1273,sitch,state of affairs. us,English
@@ -1290,15 +1290,15 @@ ID,WORD,TRANSLATION,COMMENT
 1289,fulcrum,punto de apoyo,English
 1290,shrill,estridente/chillón/gritar,English
 1291,spay,castrar,"neuter, castrate"
-2583,sneaky,discreta ,surreptitious
+1292,sneaky,discreta ,surreptitious
 1293,glib,elocuente insincero,English
 1294,clasp,"cierre, hands",English
 1295,dinghy,bote inflable din-Gi,English
 1296,attrition,"erosión, arrepentimiento",English
 1297,bawdy,obsceno,bawdyness
-1298,taunting/taunt,burla,tease
+1298,taunt,burlar,tease
 1299,brig,prisión barco,English
-1300,white-knucled ,aterrador / trepidante ,English
+1300,white-knuckled ,aterrador / trepidante ,English
 1301,salvage,salvar/rescatar,English
 1302,citizenry,ciudadanía ,English
 1303,rustle up,make something quickly,English
@@ -1315,7 +1315,7 @@ ID,WORD,TRANSLATION,COMMENT
 1314,dribs and drabs,small amount,English
 1315,ingenue,role of young girl,and3enu
 1316,horndog,salido,English
-2633,go round the bend,go crazy,English
+1317,go round the bend,go crazy,English
 1318,overawed,intimidado,English
 1319,brash,"atrevido,impudente",descarada
 1320,worrywart,un agonías ,English
@@ -1329,12 +1329,12 @@ ID,WORD,TRANSLATION,COMMENT
 1328,a powder keg,polvorín ,English
 1329,accord,conceder,English
 1330,ravage,estrago/deterioro,English
-2661,laity,legos/laicos,people not part of clergy
+1331,laity,legos/laicos,people not part of clergy
 1332,venality,venalidad/corrupto,ser susceptible de ser corrupto
 1333,alderman,city councillor,English
 1334,bespoke,a medida,bespoke shoes
-1334,fritter,despilfarrar/malgastar,buñuelo also
-1334,bespoke,a medida,bespoke shoes
+1335,fritter,despilfarrar/malgastar,buñuelo also
+1336,bespoke,a medida,bespoke shoes
 1337,crunch time,hora de la verdad,period with pressure to succeed
 1338,spry,with life,adjective
 1339,to wit,es decir,that is
@@ -1351,10 +1351,10 @@ ID,WORD,TRANSLATION,COMMENT
 1350,tussle,fight,scuffle
 1351,outlier,caso aparte,it's such an oulier
 1352,Dole out ,repartir,Dole out the roles
-2705,gruesome,repugnante/horripilante,English
-11,interred ,enterrado,
-2706,stanchion,postes de protección,
-2707,cull,sacrificar/matar,
+1353,gruesome,repugnante/horripilante,English
+1354,interred ,enterrado,
+1355,stanchion,postes de protección,
+1356,cull,sacrificar/matar,
 1357,inane,"silly, pointless",inano
 1358,hustler,embaucador/diligente/prostitute,English
 1359,side hustle,trabajo a mayores,English
@@ -1368,12 +1368,12 @@ ID,WORD,TRANSLATION,COMMENT
 1367,wakeful,desvelado,English
 1368,pining,añorando,English
 1369,scrooge,tacaño/mezquino,English
-1370,Scream blue murder,angry fit,English
+1370,Scream blue murder,angry fit,"idiom, three words"
 1371,runoff,escorrentía/waste,segunda vuelta in politics
 1372,brazen,descarado/desvergonzado,shameless
 1373,cavort,tontear/ligar,k'vorts
 1374,drop trou,bajarse lo pantalones,us. trau
-1375,taper (off),estrecharse/disiparse,English
+1375,taper off,estrecharse/disiparse,English
 1376,skedaddle,salir pintando,English
 1377,lint,hebra/pelusa,English
 1378,self-effacing,discreto/pasa desapercibido,English
@@ -1382,7 +1382,7 @@ ID,WORD,TRANSLATION,COMMENT
 1381,bray,rebuzno/donkey,hee-haw
 1382,vim,vigor,vim and vigor 
 1383,billow,inflar/nube,English
-1384,mooch off (of),gorrón/gorroneando,English
+1384,mooch off,gorrón/gorroneando,of
 1385,zesty,ácido/cítrico/enérgico ,English
 1386,chilblain,sabañones,English
 1387,cajole,"camelar, persuadir",English
@@ -1416,7 +1416,7 @@ ID,WORD,TRANSLATION,COMMENT
 1415,expound,explain in detail and length,English
 1416,tut,chasquear la lenguauk,English
 1417,flit,revoletear butterfly,English
-2835,flit,rebolotear,English
+1418,flit,rebolotear,English
 1419,makeshift ,improvisado/temporal,English
 1420,curdle,cortase/cuajar,leche
 1421,sea bass,lubina,/Bas/
@@ -1434,19 +1434,19 @@ ID,WORD,TRANSLATION,COMMENT
 1433,Fag hag,mariliendres,English
 1434,tossup,fifty-fifty/undecided,English
 1435,LARPing,juegos de rol,English
-1436,C-suite position ,ejecutivo primer nivel,English
+1436,c-suite position ,ejecutivo primer nivel,English
 1437,arrears,"atrasos,demora",English
-2875,debase,"degradar,corromper",English
-1439,leave SB in the lurch,dejar en la estacada,English
+1438,debase,"degradar,corromper",English
+1439,leave in the lurch,dejar en la estacada,idiom sb
 1440,hairy situation,dangerous ,English
 1441,veer,"virar,giras",English
 1442,sobriquet,nickname,seubrikei
-1442,sobriquet,nickname,seubrikei
+1443,sobriquet,nickname,seubrikei
 1444,run-of-the-mill ,"average, genérico ",English
 1445,august,prestigioso,English
 1446,limber,"flexible,agil",English
 1447,boatswain,bosun/contramaestre barco,English
-2895,wiseacre,smartasd/sabelotodo ,English
+1448,wiseacre,smartasd/sabelotodo ,English
 1449,tinderbox,polvorín,tinder:yesca
 1450,measley,meager;miserable,insignificante 
 1451,dreg,"posos,sobras",dregs of society 
@@ -1483,7 +1483,7 @@ ID,WORD,TRANSLATION,COMMENT
 1482,squeamishness ,"recelo, aprensión ",English
 1483,all-or-none,todos o ninguno (adj),English
 1484,pilfer,hurtar,steal in small amounts 
-1485,"hobgoblin, hob","duende, trasgo",English
+1485,hobgoblin,"duende, trasgo",hob
 1486,self-effacement ,humildad,English
 1487,squall,"borrasca,chillido",English
 1488,pelt,"bombardear, arrojar/pieles",bombard
@@ -1521,7 +1521,7 @@ ID,WORD,TRANSLATION,COMMENT
 1520,dowel,"clavija, taco",small.rod 
 1521,thoughtful,detallista,English
 1522,berth,litera tren/barco,English
-1523,dog in a manger,perro del hortelano ,English
+1523,dog in a manger,perro del hortelano ,ni come ni deja comer
 1524,umbrella stand,paragüero ,English
 1525,hale,sano,English
 1526,spay,castrar,English
@@ -1530,7 +1530,7 @@ ID,WORD,TRANSLATION,COMMENT
 1529,fennel,"hinojo,fiincho",English
 1530,hackneyed ,cliché/trillado,"haák,niid"
 1531,bank run,corralito,English
-1532,Venus flytrap,planta carnivora,English
+1532,venus flytrap,planta carnivora,English
 1533,dead ringer for,lo más parecido,English
 1534,rambunctious ,revoltoso/boisterous ,English
 1535,hew,tallar,hiu
@@ -1561,10 +1561,10 @@ ID,WORD,TRANSLATION,COMMENT
 1560,interleaved,intercalado ,English
 1561,bog down,"enredarse, empantanarse",difficulty
 1562,blemish,"defect, imperfección mancha",English
-1563,save (for),except for,dated
+1563,save for,except for,dated
 1564,waist cincher,"corset, girdle",English
 1565,mum's the word ,be silent,English
-1566,pick a bone with sb,dispute,English
+1566,pick a bone with ,dispute,Phrasal verb sb
 1567,purchasing power,poder adquisitivo ,English
 1568,bludgeon,golpear con porra,English
 1569,seedy,sórdido cutre,English
@@ -1596,7 +1596,7 @@ ID,WORD,TRANSLATION,COMMENT
 1595,faze ,desconcertado,English
 1596,jalopy,"cacharro, tartana coche",jelópi
 1597,whimsical,"extravagante , caprichoso,fun",English
-1,trump,outdo/outperforms,sobrepasar
+1598,trump,outdo/outperforms,sobrepasar
 1599,belabor,insistir/atacar,English
 1600,fruitlessly ,infructuosamente ,English
 1601,stymie,thwart/hinder,staimi/obstaculizar 
@@ -1608,7 +1608,7 @@ ID,WORD,TRANSLATION,COMMENT
 1607,yarn,lana/hilo,ball of yarn/historia
 1608,cookie cutter ,molde galletas ,English
 1609,guardrails ,"guardarail, Barreras!",English
-1609,guardrails ,"guardarail, Barreras!",English
+1610,set square,escuadra,"try square, cartabón"
 1611,tarn,lago de montaña ,English
 1612,ridge ,cresta montaña ,English
 1613,bridleway,camino equestre,horses have right of way
@@ -1619,10 +1619,10 @@ ID,WORD,TRANSLATION,COMMENT
 1618,heartwarming ,reconfortante ,English
 1619,at askance,con recelo/de reojo,English
 1620,hoodwink,embaucar ,English
-1621,taper (off),estrecharse,English
+1621,taper off,estrecharse,English
 1622,stick in my craw,se me atraganta/reluctant,English
-1623,gall/galling,irritar/irritante,galling irrationality 
-1623,gall/galling,irritar/irritante,galling irrationality 
+1623,gall,irritar/irritante,galling irrationality 
+1624,gall,irritar/irritante,galling irrationality 
 1625,giddy ,atolondrado/emocionado,English
 1626,comber,big surfing wave/curly,koumer
 1627,last-ditch attempt,desesperado,English
@@ -1637,7 +1637,7 @@ ID,WORD,TRANSLATION,COMMENT
 1636,bellhop,botones US,English
 1637,self-effacing ,"discreto, molesto",English
 1638,crass,"vulgar, grosero ",English
-1639,quibble (about),objección menor,English
+1639,quibble about,objección menor,English
 1640,wad up,enrollar/doblar,paper sheets
 1641,chaperon,adulto acompañante ,English
 1642,chasm,"abismo,sima",kazm
@@ -1654,7 +1654,7 @@ ID,WORD,TRANSLATION,COMMENT
 1653,nook,rincón ,English
 1654,backdrop,contexto/trasfondo ,English
 1655,brig,"mazmorra, calabozo",English
-1656,we're quits,We're even,English
+1656,we're quits,We're even,Idiom
 1657,whipper-snapper,mocoso entitled,English
 1658,subservient,subordinado a / subservient to,servil
 1659,flat out,completamente/a full,outright/downright
@@ -1665,14 +1665,14 @@ ID,WORD,TRANSLATION,COMMENT
 1664,keg,barril cervezA,English
 1665,rager,"kegger, fiesta uni/high scool",English
 1666,cerulean,azul claro,English
-1667,Flake on sb,dejar plantado,English
-1668,blow sb off,"disrespect, ignore",English
+1667,flake on,dejar plantado,stand sb up/ f on sb
+1668,blow off,"disrespect, ignore",English
 1669,nip,pop/short time,brE
 1670,zero in on,hyper focus,English
 1671,blow through sth,finish quickly,EG BAG of chips
-1672,chalk sth Up to,Put it down to,attribute it to 
-1673,bring yourself to do sth,atreverse a algo,English
-1674,Wolf down,engullir ,English
+1672,chalk up to,Put it down to,attribute it to 
+1673,bring yourself to ,atreverse a algo,English
+1674,wolf down,engullir ,English
 1675,fell,talar,English
 1676,rake it in,make money,English
 1677,bashful,timido,English
@@ -1733,7 +1733,7 @@ ID,WORD,TRANSLATION,COMMENT
 1732,gab,charlar,English
 1733,chink,"ranura, rendija",a chink in your armour
 1734,streamline,"optimizar, hacer más eficiente ",English
-1735,disenfranchised SB from ,quitar el derecho,deprive
+1735,disenfranchised from ,quitar el derecho,deprive
 1736,take stock of ,evaluate situation ,English
 1737,demurrer,objeccion ,English
 1738,disenfranchise,hacer perder privilegios ,English
@@ -1746,7 +1746,7 @@ ID,WORD,TRANSLATION,COMMENT
 1745,scorn,menosprecio ,English
 1746,sullen,"lúgubre, deprimente ",English
 1747,bootless,inútil (archaic),English
-1748,brim/to the brim,edge/brink full,English
+1748,to the brim,edge/brink full,English
 1749,lather up,enjabonar,English
 1750,beguiling ,encantador/seductor,English
 1751,bigotry ,intolerancia ,English
@@ -1755,14 +1755,14 @@ ID,WORD,TRANSLATION,COMMENT
 1754,adjourn,"posponer, cancelar ",English
 1755,trough,valle/depresión,traf/trof peaks and through
 1756,accost,abordar/acercarse agresivamrnte,English
-1757,it's the way the cookie crumbles,such is life,English
+1757,That's the way the cookie crumbles,such is life,idiom
 1758,scorn ,menospreciar ,English
 1759,inane,pointless,English
 1760,dunce ,zopenco ,English
 1761,headlong,headfirst ,English
-1762,a howl of protest,collocation ,English
+1762,a howl of protest,collocation ,protest
 1763,inane,"silly, vano",English
-1763,inane,"silly, vano",English
+1764,inane,"silly, vano",English
 1765,out of print ,fuera de circulación ,English
 1766,brunt ,"choque, embiste ",br^nt
 1767,dupe,ingenuo/engañar,"diup, gullible"
@@ -1804,7 +1804,7 @@ ID,WORD,TRANSLATION,COMMENT
 1803,bushel,"36l, medida/cesto",a bushel of apples
 1804,wallop,golpetazo,English
 1805,dewy-eyed,ojos llorosos ,English
-1806,IRA (Roth),fondo de pensiones ,English
+1806,IRA ,fondo de pensiones ,(Roth)
 1807,bleary-eyed ,soñoliento/adormilado ,English
 1808,Put paid to,"arruinar,chafar",cause to end abruptly 
 1809,get the better of,defeat sb,English
@@ -1831,8 +1831,8 @@ ID,WORD,TRANSLATION,COMMENT
 1830,wile,"treta, artimaña ",English
 1831,cheapskate,"tightwad,miser",stingy 
 1832,bleary-eyed ,"ojos con sueño, ",English
-1833,legaña,sleep,English
-1833,legaña,sleep,English
+1833,sleep,legaña,eye discharge
+1834,legaña,sleep,English
 1835,jibe with,"fit, corresponder",English
 1836,heedlessly,"recklessly, inattentively",English
 1837,Cognizant of,aware of,formal
@@ -1869,7 +1869,7 @@ ID,WORD,TRANSLATION,COMMENT
 1868,quern,molinillo de mano,dated
 1869,raze,demolish ,English
 1870,fledgling ,"novato, principiante ",English
-1871,hanker for/after,"anhelar, tener ganas",English
+1871,hanker for,"anhelar, tener ganas",for/after
 1872,knave,"dishonest, truhan",dated
 1873,wizened ,wrinkled,English
 1874,snark,sarcasmo,English
@@ -1878,9 +1878,9 @@ ID,WORD,TRANSLATION,COMMENT
 1877,pigsty,"pocilga, ",English
 1878,have a run-in,"serious argument, fight",English
 1879,let up,"aflojar, parar, give up",English
-1880,here's the real kicker,lo raro/sorpresa,Hidden disadvantage 
+1880,here's the real kicker,lo raro/sorpresa,Hidden disadvantage /idiom
 1881,terse,"brusco, cortante",English
-1882,founder (v),sink,English
+1882,founder,sink,verb
 1883,acrimony,acritud/bitterness ,English
 1884,swamp,"inundar, anegar",English
 1885,moon,"hacer un calvo, enseñar el culo",English
@@ -1892,16 +1892,16 @@ ID,WORD,TRANSLATION,COMMENT
 1891,loafer,mocasin,English
 1892,upchuck,vomitar,English
 1893,touch base ,establecer contacto,English
-1894,chew out/get chewed out,echar bronca,English
+1894,chew out,echar bronca,/get chewed out
 1895,aight/ought,anything (archaic),English
 1896,morose ,"taciturno, malhumorado ",merús
-1897,besotted with/by,"infatuated, enamorado",English
+1897,besotted with,"infatuated, enamorado",by
 1898,despondent ,abatido ,English
 1899,grassroots ,las bases(miembros),English
 1900,frail around,"thrash about, revolvers e",English
-1901,DEI candidate ,"diversity, equity, inclusion",English
+1901,DEI  ,"diversity, equity, inclusion",eg. candidate
 1902,unassailable ,inatacable ,English
-1903,as it is cracked up to be,as it is expected,English
+1903,as it is cracked up to be,as it is expected,Idiom
 1904,swanky,"estiloso, fashionable ",English
 1905,germane,pertinente ,English
 1906,thuggery,vandalism ,English
@@ -1952,16 +1952,16 @@ ID,WORD,TRANSLATION,COMMENT
 1951,mongrel,"cruce, mestizo",English
 1952,twiddle your thumbs,do nothing ,English
 1953,deposition,"declaración, juicio ",English
-3907,carabiner,mosquetón de cadena,cara'biiner
+1954,carabiner,mosquetón de cadena,cara'biiner
 1955,proffering,ofreciendo,English
-1956,gnash teeth,grind,English
+1956,gnash,grind,teeth
 1957,prescient,profético ,English
 1958,bedsit ,"estudio, apartamento pequeño ",English
 1959,naff,pasado de moda uk,English
-1960,a hoot,fun/funny,English
+1960,a hoot,fun/funny,Idiom
 1961,crumple,arrugar,English
 1962,squash,aplastar ,English
-1963,turn in ,meterse en la cama,English
+1963,turn in ,meterse en la cama,Phrasal verb
 1964,a cinch,pan comido ,English
 1965,decry,"denunciar, condenar",English
 1966,knock-off,"copia, imitación ",English
@@ -1979,10 +1979,10 @@ ID,WORD,TRANSLATION,COMMENT
 1978,discombobulated ,confused,English
 1979,bespoke,"custom-made, a medida",English
 1980,shill,"cómplice, embaucador",English
-1980,shill,"cómplice, embaucador",English
-1980,shill,"cómplice, embaucador",English
-1980,shill,"cómplice, embaucador",English
-1980,shill,"cómplice, embaucador",English
+1981,shill,"cómplice, embaucador",English
+1982,shill,"cómplice, embaucador",English
+1983,shill,"cómplice, embaucador",English
+1984,shill,"cómplice, embaucador",English
 1985,WFH,work from home,English
 1986,scramble to do,apresurarse para con caos,English
 1987,up to scratch ,"good enough, satisfactory ",English
@@ -1993,17 +1993,17 @@ ID,WORD,TRANSLATION,COMMENT
 1992,joist,viga trasversal,English
 1993,waders,botas pescador/,tall rubber boots
 1994,smitten,afligido/afectado,enamorado
-1995,gripe (about),"queja, molestia, quejarse",English
+1995,gripe about,"queja, molestia, quejarse",English
 1996,clunky ,"torpe, inadecuado ",English
 1997,jut out,"protrudes, sticks out",English
-1997,pass up,miss out on,English
+1998,pass up,miss out on,English
 1999,at cross purposes with ,at odds with,English
 2000,snazzy ,"elegante, flashy ",English
 2001,nous,"/naus/ inteligencia, sentido común ",English
-2002,stack up against/with,compare,English 
+2002,stack up against,compare,/with
 2003,flunk out of,suspender asignatura,English
 2004,dupe into,engañar,English
-2005,dun/dunned,apremiar para pagar deuda,English
+2005,dun,apremiar para pagar deuda,/dunned
 2006,bee's knees ,genial,English 
 2007,adroit ,dextrous /skilful/habil,English 
 2008,duck out,escabullirse ,English 
@@ -2026,3 +2026,25 @@ ID,WORD,TRANSLATION,COMMENT
 2025,reeling,tambaleado /shocked ,English
 2026,nadir,low point op apogee/zenith,neidier
 2027,gander,male goose/take a gander,echar un vistazo 
+2028,larceny,theft,English
+2029,protractor,portaángulos,math tool
+2030,uncurbed,sin restricciones . adj,"unlimited, unrestricted"
+2031,woolgathering,"ensoñación, embobado",daydreaming
+2032,in a bind,en un apuro,in trouble
+2033,briar,zarza,thorny plant
+2034,shuck,"desbullar, descascar, desvainar","oyster, peas"
+2035,bristle wirh,plagado de/lleno,"puas, full of"
+2036,grisly,"horripilante, macabro",grim
+2037,churn rate,tasa de cancelación,"cancelar, mantequilla batir"
+2038,up the ante,increase idiom,incrementar más allá
+2039,wench,muchacha,"young woman, dated"
+2040,assize,audiencia jurídica,dated
+2041,broker,negociar un trato,a deal
+2042,lard,pork fat,grasa
+2043,haddock,abadejo,fish
+2044,makeshift,sustituto temporal,"adj,apaño temporal"
+2045,humdinger,una pasada,"AE dated, noun"
+2046,double whammy,dos por uno,vamos para bingo
+2047,SNA,orientador,"Special Needs Assistant, apoyo"
+2048,acme,punto algido,"pinnacle, summit"
+2049,cobbler,zapatero,shoemaket
